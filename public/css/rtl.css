@@ -1,0 +1,683 @@
+[dir="rtl"] {
+  /* App Landing RTL */
+  /* Personal Portfolio RTL */
+  /* SaaS Landing RTL */
+  /* SEO Marketing RTL */
+  /* Startup Agency RTL */
+  /* Responsive CSS */
+}
+
+[dir="rtl"] .owl-carousel {
+  direction: ltr;
+}
+
+[dir="rtl"] .owl-carousel .owl-item {
+  direction: rtl;
+}
+
+[dir="rtl"] .mr-3 {
+  margin-right: 0;
+  margin-left: 15px;
+}
+
+[dir="rtl"] .mr-2 {
+  margin-right: 0;
+  margin-left: 10px;
+}
+
+[dir="rtl"] .navbar-nav {
+  padding-right: 0;
+}
+
+[dir="rtl"] .me-3 {
+  margin-left: 1rem !important;
+  margin-right: unset !important;
+}
+
+[dir="rtl"] .ms-auto {
+  margin-right: auto !important;
+  margin-left: unset !important;
+}
+
+[dir="rtl"] .me-2 {
+  margin-left: 0.5rem !important;
+  margin-right: unset !important;
+}
+
+[dir="rtl"] .navbar-brand {
+  margin-right: 0;
+}
+
+[dir="rtl"] .app-banner-area .app-bennr-text .app-text {
+  padding-right: 130px;
+}
+
+[dir="rtl"] .app-banner-area .app-bennr-text .app-text h3 {
+  right: 0;
+  left: auto;
+  padding-left: 10px;
+  border-left: 1px solid #c1bfcb;
+  padding-right: 0;
+  border-right: 0;
+}
+
+[dir="rtl"] .app-banner-area .app-bennr-text .app-shapes .shape-1 {
+  left: auto;
+  right: -380px;
+}
+
+[dir="rtl"] .app-banner-area .app-bennr-text .app-shapes .shape-2 {
+  right: auto;
+  left: 0;
+}
+
+[dir="rtl"] .app-banner-area .app-bennr-text .app-shapes .shape-30 {
+  left: auto;
+  right: 0;
+}
+
+[dir="rtl"] .app-banner-area .app-bennr-text .app-shapes .shape-31 {
+  left: auto;
+  right: 10px;
+}
+
+[dir="rtl"] .app-banner-area .app-bennr-text .app-shapes .shape-28 {
+  right: auto;
+  left: 0;
+}
+
+[dir="rtl"] .app-banner-area .app-bennr-text .app-shapes .shape-16 {
+  left: auto;
+  right: -110px;
+}
+
+[dir="rtl"] .app-banner-area .app-bennr-text .app-shapes .shape-14 {
+  left: 0;
+  right: auto;
+}
+
+[dir="rtl"] .app-banner-area .app-bennr-text .app-shapes .shape-11 {
+  left: auto;
+  right: -50px;
+}
+
+[dir="rtl"] .app-banner-area .bg-shape {
+  right: auto;
+  left: 0;
+}
+
+[dir="rtl"] .app-banner-area .bg-shape img {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
+[dir="rtl"] .easy-step-area .easy-step-img .shape-1 {
+  left: auto;
+  right: -80px;
+}
+
+[dir="rtl"] .easy-step-area .easy-step-img .shape-21 {
+  left: 60px;
+  right: auto;
+}
+
+[dir="rtl"] .powerful-area {
+  border-radius: 0px 0px 0 700px;
+}
+
+[dir="rtl"] .powerful-area .section-title {
+  text-align: right;
+}
+
+[dir="rtl"] .powerful-area .powerful-card {
+  padding-right: 80px;
+}
+
+[dir="rtl"] .powerful-area .powerful-card i {
+  right: 0;
+  left: auto;
+}
+
+[dir="rtl"] .perfect-area .section-title {
+  text-align: right;
+}
+
+[dir="rtl"] .perfect-area .section-title p {
+  margin-right: 0;
+}
+
+[dir="rtl"] .perfect-area .perfect-img .perfect-shape {
+  right: -200px;
+  left: auto;
+}
+
+[dir="rtl"] .app-features-area .section-title {
+  text-align: right;
+  margin-right: 0;
+}
+
+[dir="rtl"] .app-features-area .section-title p {
+  margin-right: 0;
+}
+
+[dir="rtl"] .app-features-area .app-features {
+  left: 0;
+  right: auto;
+}
+
+[dir="rtl"] .clients-slider-two-area .clients-slider-two .slider-two-item img {
+  left: 35px;
+  right: auto;
+}
+
+[dir="rtl"] .clients-slider-two-area .clients-slider-two .slider-two-item .clients-icon {
+  left: 60px;
+  right: auto;
+}
+
+[dir="rtl"] .clients-slider-two-area .client-shape {
+  left: 30px;
+  right: auto;
+}
+
+[dir="rtl"] .subscribe-area .subscribe-contant .subscribe-form .btn {
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  left: 0;
+  right: auto;
+}
+
+[dir="rtl"] .footer-area .footer-widget .footer-text {
+  padding-right: 0;
+}
+
+[dir="rtl"] .footer-area .footer-widget .footer-text li {
+  padding: 0 20px 0 0;
+}
+
+[dir="rtl"] .footer-area .footer-widget .footer-text li a i {
+  right: 0;
+  left: auto;
+}
+
+[dir="rtl"] .footer-area .footer-widget .footer-social {
+  padding-right: 0;
+}
+
+[dir="rtl"] .footer-area .footer-widget .footer-social li {
+  margin: 0 0 0 10px;
+}
+
+[dir="rtl"] .go-top {
+  left: 15px;
+  right: auto;
+}
+
+[dir="rtl"] .main-navbar.personal-nav .navbar-nav .nav-link {
+  margin: 0 40px 0 0;
+}
+
+[dir="rtl"] .personal-banner-area .personal-banner-img .personal-shape .shape-24 {
+  right: -60px;
+  left: auto;
+}
+
+[dir="rtl"] .personal-banner-area .personal-banner-img .personal-shape .shape-2 {
+  right: -80px;
+  left: auto;
+}
+
+[dir="rtl"] .personal-banner-area .personal-banner-img .personal-shape .shape-13 {
+  right: auto;
+  left: -55px;
+}
+
+[dir="rtl"] .personal-banner-area .personal-bennr-text .personal-text-shape .shape-14 {
+  left: -90px;
+  right: auto;
+}
+
+[dir="rtl"] .personal-banner-area .personal-bennr-text .personal-text-shape .shape-4 {
+  left: 0;
+  right: auto;
+}
+
+[dir="rtl"] .personal-banner-area .personal-bennr-text .personal-text-shape .shape-22 {
+  left: -100px;
+  right: auto;
+}
+
+[dir="rtl"] .personal-banner-area .personal-bennr-text .personal-text-shape .shape-23 {
+  right: 20px;
+  left: auto;
+}
+
+[dir="rtl"] .personal-banner-area .personal-bennr-text .personal-text-shape .shape-2 {
+  left: 0;
+  right: auto;
+}
+
+[dir="rtl"] .who-we-area .section-title {
+  text-align: right;
+}
+
+[dir="rtl"] .my-intro ul li {
+  padding-right: 35px;
+  padding-left: 0;
+  margin-right: 0;
+  margin-left: 25px;
+}
+
+[dir="rtl"] .my-intro ul li i {
+  right: 0;
+  left: auto;
+}
+
+[dir="rtl"] .fun-facts-area .single-fun-facts {
+  padding-right: 100px;
+  padding-left: 0;
+}
+
+[dir="rtl"] .fun-facts-area .single-fun-facts i {
+  right: 0;
+  left: auto;
+}
+
+[dir="rtl"] .choose-area .chooses-img-contant .section-title {
+  text-align: right;
+}
+
+[dir="rtl"] .choose-area .chooses-img-contant::before {
+  right: -90px;
+  left: auto;
+}
+
+[dir="rtl"] .choose-area .chooses-img-contant .choose-us-img .choose-img {
+  right: -80px;
+  left: auto;
+}
+
+[dir="rtl"] .saas-banner-area .saas-banner-img .saas-img-2 {
+  left: 140px;
+  right: auto;
+}
+
+[dir="rtl"] .saas-banner-area .saas-shape-content .saas-shape-7 {
+  left: 10px;
+  right: auto;
+}
+
+[dir="rtl"] .saas-banner-area .saas-shape-content .saas-shape-5 {
+  left: 150px;
+  right: auto;
+}
+
+[dir="rtl"] .saas-banner-area .saas-shape-content .saas-shape-6 {
+  left: 95px;
+  right: auto;
+}
+
+[dir="rtl"] .saas-banner-area .saas-shape-content .saas-shape-3 {
+  right: 10px;
+  left: auto;
+}
+
+[dir="rtl"] .saas-service-card .icon i {
+  right: -15px;
+}
+
+[dir="rtl"] .saas-service-card:hover .icon i {
+  text-align: center;
+  right: 12px;
+}
+
+[dir="rtl"] .saas-features {
+  padding: 25px 110px 25px 25px;
+}
+
+[dir="rtl"] .saas-features .icon {
+  right: 30px;
+  left: auto;
+}
+
+[dir="rtl"] .saas-feature-two {
+  padding-right: 80px;
+}
+
+[dir="rtl"] .saas-feature-two i {
+  right: 0;
+  left: auto;
+}
+
+[dir="rtl"] .saas-downloand-area .section-title {
+  text-align: right;
+}
+
+[dir="rtl"] .saas-downloand-area .download-text .app-image .play-stroe {
+  margin-left: 10px;
+}
+
+[dir="rtl"] .saas-downloand-area .download-text .app-image .apple {
+  padding-top: 0;
+}
+
+[dir="rtl"] .saas-downloand-area .download-image .mobile-2 {
+  right: -65px;
+  left: auto;
+}
+
+[dir="rtl"] .prising-card ul {
+  margin: 35px 50px 0 0;
+}
+
+[dir="rtl"] .prising-card ul li {
+  padding-right: 30px;
+}
+
+[dir="rtl"] .prising-card ul li i {
+  right: 0;
+  left: auto;
+}
+
+[dir="rtl"] .clients-area .clients-slider .clients-slider-item .client-text .text .text-icon-1 {
+  right: -30px;
+  left: auto;
+}
+
+[dir="rtl"] .clients-area .clients-slider .clients-slider-item .client-text .text .text-icon-2 {
+  left: -30px;
+  right: auto;
+}
+
+[dir="rtl"] .clients-area .clients-slider.owl-theme .owl-nav {
+  right: 30px;
+  left: auto;
+}
+
+[dir="rtl"] .clients-area .claint-shape {
+  left: 0;
+  right: auto;
+}
+
+[dir="rtl"] .seo-banner-area .seo-img-contant .seo-img .seo-img-2 {
+  left: -60px;
+  right: auto;
+}
+
+[dir="rtl"] .seo-banner-area .seo-img-contant .seo-img .seo-img-3 {
+  right: -65px;
+  left: auto;
+}
+
+[dir="rtl"] .seo-banner-area .seo-shape2 .shape-14 {
+  right: 20px;
+  left: auto;
+}
+
+[dir="rtl"] .seo-banner-area .seo-shape1 .shape-13 {
+  left: -35px;
+  right: auto;
+}
+
+[dir="rtl"] .seo-banner-area .seo-shape1 .shape-15 {
+  right: -55px;
+  left: auto;
+}
+
+[dir="rtl"] .about-us-area .about-us-text .section-title {
+  text-align: right;
+}
+
+[dir="rtl"] .about-us-area .about-us-text .about-card {
+  padding-right: 70px;
+  margin-left: 15px;
+  margin-right: 0;
+  padding-left: 0;
+}
+
+[dir="rtl"] .about-us-area .about-us-text .about-card h3 {
+  right: 0;
+  left: auto;
+  margin-left: 8px;
+  margin-right: 0;
+  padding-left: 8px;
+  padding-right: 0;
+  border-left: 1px solid #c5c0cb;
+  border-right: 0;
+}
+
+[dir="rtl"] .about-us-area .about-us-text .about-card h3.l-45 {
+  right: -35px;
+  left: auto;
+}
+
+[dir="rtl"] .who-we-area .who-we-are-img .we-are-img .we-are-1 {
+  left: 20px;
+  right: auto;
+}
+
+[dir="rtl"] .who-we-area .who-we-are-img .we-are-img .we-are-2 {
+  right: 15px;
+  left: auto;
+}
+
+[dir="rtl"] .choose-us-area .chooses-img-contant .choose-us-img .choose-img {
+  right: -80px;
+  left: auto;
+}
+
+[dir="rtl"] .main-navbar.startup-nav .navbar-nav .nav-link {
+  margin: 0 40px 0 0;
+}
+
+[dir="rtl"] .about-us-two .about-two-text .section-title {
+  text-align: right;
+}
+
+[dir="rtl"] .about-us-two .about-two-text ul li {
+  padding-right: 25px;
+}
+
+[dir="rtl"] .about-us-two .about-two-text ul li i {
+  right: 0;
+  left: auto;
+}
+
+[dir="rtl"] .about-us-two .about-two-img .about-shape .shape-17 {
+  left: -30px;
+  right: auto;
+}
+
+[dir="rtl"] .about-us-two .about-two-img .about-shape .shape-19 {
+  left: 40px;
+  right: auto;
+}
+
+[dir="rtl"] .about-us-two .about-two-img .about-shape .shape-20 {
+  right: 60px;
+  left: auto;
+}
+
+[dir="rtl"] .aweseome-area .awesome-text .choose-card span {
+  left: 0;
+  right: auto;
+}
+
+[dir="rtl"] .aweseome-area .aweseome-img .aweseome-img-card {
+  left: 0;
+  right: auto;
+}
+
+[dir="rtl"] .pricing-tab .tabs li .save-card {
+  left: -25px;
+  right: auto;
+}
+
+@media only screen and (max-width: 767px) {
+  [dir="rtl"] .main-navbar .navbar-nav {
+    padding-right: 0;
+    padding-bottom: 10px;
+  }
+  [dir="rtl"] .main-navbar .navbar-nav .nav-link {
+    margin: 0;
+  }
+  [dir="rtl"] .main-navbar.startup-nav .navbar-nav .nav-link {
+    margin: 0;
+  }
+  [dir="rtl"] .main-navbar.personal-nav .navbar-nav .nav-link {
+    margin: 0 40px 0 0;
+  }
+  [dir="rtl"] .powerful-area .powerful-img {
+    margin: auto;
+  }
+  [dir="rtl"] .powerful-area .powerful-card {
+    padding-right: 75px;
+    padding-left: 0;
+  }
+  [dir="rtl"] .app-features-area .app-features-img .mr-3 {
+    margin-bottom: 0;
+    margin-right: 0 !important;
+  }
+  [dir="rtl"] .perfect-area {
+    text-align: center;
+  }
+  [dir="rtl"] .perfect-area .section-title {
+    text-align: center;
+  }
+  [dir="rtl"] .who-we-area .section-title {
+    text-align: center;
+  }
+  [dir="rtl"] .my-intro {
+    text-align: center;
+  }
+  [dir="rtl"] .my-intro ul li {
+    margin-left: 10px;
+  }
+  [dir="rtl"] .choose-us-area .chooses-img-contant .choose-us-img .choose-img {
+    right: -10px;
+  }
+  [dir="rtl"] .choose-card {
+    text-align: center;
+  }
+  [dir="rtl"] .personal-banner-area {
+    text-align: center;
+  }
+  [dir="rtl"] .saas-service-card .icon i {
+    right: -25px;
+  }
+  [dir="rtl"] .saas-service-card:hover .icon i {
+    right: 0;
+  }
+  [dir="rtl"] .saas-features {
+    padding: 20px 90px 20px 15px;
+  }
+  [dir="rtl"] .saas-features:hover .icon i {
+    top: 0;
+  }
+  [dir="rtl"] .saas-downloand-area .download-image .mobile-2 {
+    right: 0;
+    left: 0;
+  }
+  [dir="rtl"] .seo-banner-area {
+    text-align: center;
+  }
+  [dir="rtl"] .seo-banner-area .seo-img-contant .seo-img .seo-img-2 {
+    left: -10px;
+  }
+  [dir="rtl"] .seo-banner-area .seo-img-contant .seo-img .seo-img-3 {
+    right: -10px;
+  }
+  [dir="rtl"] .about-us-area .about-us-text .about-card {
+    padding-right: 0;
+    margin-left: 0;
+  }
+  [dir="rtl"] .about-us-area .about-us-text .about-card h3 {
+    border: none;
+  }
+  [dir="rtl"] .about-us-two .about-two-img .about-shape .shape-17 {
+    left: 0;
+  }
+  [dir="rtl"] .saas-feature-two {
+    padding-left: 0;
+  }
+  [dir="rtl"] .prising-card ul {
+    margin: 25px 0px 0 0;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  [dir="rtl"] .prising-card {
+    padding: 15px 0;
+  }
+  [dir="rtl"] .prising-card ul {
+    margin: 35px 25px 0 0;
+  }
+  [dir="rtl"] .saas-downloand-area .download-image .mobile-2 {
+    right: 0;
+    left: 0;
+  }
+  [dir="rtl"] .about-us-area .about-us-text .about-card {
+    padding-right: 0;
+    margin-left: 0;
+  }
+  [dir="rtl"] .about-us-area .about-us-text .about-card h3 {
+    border: none;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  [dir="rtl"] .main-navbar .navbar-nav {
+    padding-right: 0;
+    padding-bottom: 10px;
+  }
+  [dir="rtl"] .main-navbar .navbar-nav .nav-link {
+    margin: 0;
+  }
+  [dir="rtl"] .main-navbar.startup-nav .navbar-nav .nav-link {
+    margin: 0;
+  }
+  [dir="rtl"] .main-navbar.personal-nav .navbar-nav .nav-link {
+    margin: 0 30px 0 0;
+  }
+  [dir="rtl"] .startup-banner-area {
+    overflow: hidden;
+  }
+  [dir="rtl"] .banner-video-contant .video-btn a {
+    position: absolute;
+    right: auto;
+    left: 0;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    margin: auto;
+  }
+  [dir="rtl"] .choose-us-area .chooses-img-contant .choose-us-img .choose-img {
+    right: -20px;
+  }
+  [dir="rtl"] .choose-card {
+    margin-bottom: 30px;
+  }
+  [dir="rtl"] .saas-downloand-area .download-image .mobile-2 {
+    right: 0;
+    left: 0;
+  }
+  [dir="rtl"] .startup-banner-area .banner-video-contant .popup-video {
+    right: auto;
+    left: 160px;
+  }
+  [dir="rtl"] .about-us-area .about-us-text .about-card {
+    margin-left: 30px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  [dir="rtl"] .choose-us-area .chooses-img-contant .choose-us-img .choose-img {
+    right: -40px;
+  }
+  [dir="rtl"] .prising-card ul {
+    margin: 35px 30px 0 0;
+  }
+}
+/*# sourceMappingURL=rtl.css.map */
