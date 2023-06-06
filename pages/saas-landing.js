@@ -11,26 +11,25 @@ import ReviewSlider from '../components/SaasLanding/ReviewSlider';
 import Partner from '../components/SaasLanding/Partner';
 import Contact from '../components/SaasLanding/Contact';
 import Subscribe from '../components/SaasLanding/Subscribe';
-import Footer from '../components/SaasLanding/Footer'; 
+import Footer from '../components/SaasLanding/Footer';
 
 const SaasLanding = () => {
-    return (
-        <>
-            <Navbar />
-            <MainBanner />
-            <Services />
-            <Features />
-            <Pricing />
-            <SaaSAppFeatures />
-            <AppDownload />
-            <PopupVideoArea />
-            <ReviewSlider />
-            <Partner />
-            <Contact />
-            <Subscribe />
-            <Footer />
-        </>
-    )
-}
+  return (
+    <>
+      <Navbar />
+      <MainBanner />
+      <Services />
+      <Features />
+      <Pricing />
+      <SaaSAppFeatures />
+      <AppDownload />
+      <PopupVideoArea />
+      <ReviewSlider />
+      <Partner />
+      <Contact />
+      <Footer />
+    </>
+  );
+};
 
 export default SaasLanding;

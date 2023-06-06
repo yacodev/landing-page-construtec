@@ -1181,7 +1181,7 @@ Saas Landing CSS
 }
 
 .footer-area .footer-widget .logo {
-  max-width: 130px;
+  max-width: 330px;
   margin-bottom: 20px;
 }
 
@@ -1213,35 +1213,35 @@ Saas Landing CSS
 }
 
 .footer-area .footer-widget .footer-social li a i.bg-1 {
-  background-color: #fa866b;
+  background-color: #FD4C5C;
 }
 
 .footer-area .footer-widget .footer-social li a i.bg-2 {
-  background-color: #f5d150;
+  background-color: #FD4C5C;
 }
 
 .footer-area .footer-widget .footer-social li a i.bg-3 {
-  background-color: #58d7c1;
+  background-color: #FD4C5C;
 }
 
 .footer-area .footer-widget .footer-social li a i.bg-4 {
-  background-color: #fb9ed7;
+  background-color: #FD4C5C;
 }
 
 .footer-area .footer-widget .footer-social li a:hover i.bg-1 {
-  background-color: #58d7c1;
+  background-color: #FD4C5C;
 }
 
 .footer-area .footer-widget .footer-social li a:hover i.bg-2 {
-  background-color: #fb9ed7;
+  background-color: #FD4C5C;
 }
 
 .footer-area .footer-widget .footer-social li a:hover i.bg-3 {
-  background-color: #fa866b;
+  background-color: #FD4C5C;
 }
 
 .footer-area .footer-widget .footer-social li a:hover i.bg-4 {
-  background-color: #f5d150;
+  background-color: #FD4C5C;
 }
 
 .footer-area .footer-widget .title {
