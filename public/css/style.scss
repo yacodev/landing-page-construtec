@@ -37,7 +37,7 @@ Default CSS
 }
 
 $body-font-family: 'Sarabun', sans-serif;
-$main-color: #567df4;
+$main-color: #1474D2;
 $white-color: #ffffff;
 $body-color: #7f7f7f;
 $black-color: #242424;
@@ -167,16 +167,16 @@ Saas Landing CSS
                 transition: $transition;
             }
             &::focus {
-                color: #567df4;
+                color: #1474D2;
             }
             &:hover {
-                color: #567df4;
+                color: #1474D2;
                 &::before {
                     transform: scale(1);
                 }
             }
             &.active {
-                color: #567df4;
+                color: #1474D2;
                 &::before {
                     transform: scale(1);
                 }
@@ -1607,7 +1607,7 @@ SEO Marketing CSS
         margin-bottom: 20px;
         &.bg-1 {
             background-color: #e5ecff;
-            color: #567df4;
+            color: #1474D2;
         }
         &.bg-2 {
             background-color: #ffeae5;
@@ -2173,7 +2173,7 @@ Startup Agency CSS
         margin-bottom: 20px;
         &.bg-1 {
             background-color: #e5ecff;
-            color: #567df4;
+            color: #1474D2;
         }
         &.bg-2 {
             background-color: #ffeae5;
@@ -2197,7 +2197,7 @@ Startup Agency CSS
         }
         &.bg-7 {
             background-color: #e5ecff;
-            color: #567df4;
+            color: #1474D2;
         }
         &.bg-8 {
             background-color: #ffeae5;
@@ -2959,7 +2959,7 @@ App Landing CSS
                 border-radius: 5px;
                 margin-bottom: 15px;
                 &.bg-1 {
-                    background-color: #567df4;
+                    background-color: #1474D2;
                 }
                 &.bg-2 {
                     background-color: #f6d665;
