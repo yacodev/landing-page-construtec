@@ -175,7 +175,7 @@ Saas Landing CSS
 .main-navbar .navbar-nav .nav-link::before {
   content: '';
   position: absolute;
-  background-color: #567df4;
+  background-color: #1474D2;
   width: 100%;
   height: 2px;
   left: 0;
@@ -188,11 +188,11 @@ Saas Landing CSS
 }
 
 .main-navbar .navbar-nav .nav-link::focus {
-  color: #567df4;
+  color: #1474D2;
 }
 
 .main-navbar .navbar-nav .nav-link:hover {
-  color: #567df4;
+  color: #1474D2;
 }
 
 .main-navbar .navbar-nav .nav-link:hover::before {
@@ -201,7 +201,7 @@ Saas Landing CSS
 }
 
 .main-navbar .navbar-nav .nav-link.active {
-  color: #567df4;
+  color: #1474D2;
 }
 
 .main-navbar .navbar-nav .nav-link.active::before {
@@ -214,7 +214,7 @@ Saas Landing CSS
 }
 
 .main-navbar .nav-btn .default-btn.bg-main {
-  background-color: #567df4;
+  background-color: #1474D2;
   color: #ffffff;
 }
 
@@ -229,7 +229,7 @@ Saas Landing CSS
 }
 
 .main-navbar .nav-btn .default-btn:hover {
-  background-color: #567df4;
+  background-color: #1474D2;
   color: #ffffff;
 }
 
@@ -250,7 +250,7 @@ Saas Landing CSS
   width: 28px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  background: #567df4;
+  background: #1474D2;
   height: 2px;
   display: block;
 }
@@ -296,7 +296,7 @@ Saas Landing CSS
 
 /* Saas banner CSS */
 .saas-banner-area {
-  background-color: #567df4;
+  background-color: #1474D2;
   height: 1000px;
   border-bottom-left-radius: 80px;
   border-bottom-right-radius: 80px;
@@ -347,7 +347,7 @@ Saas Landing CSS
 
 .saas-banner-area .saas-banner-btn .default-btn.bg-main:hover {
   background-color: #ffffff;
-  color: #567df4;
+  color: #1474D2;
   -webkit-box-shadow: 0px 20px 20px 0px #3f61b8;
           box-shadow: 0px 20px 20px 0px #3f61b8;
 }
@@ -470,7 +470,7 @@ Saas Landing CSS
 
 .saas-service-card .icon.bg-1 {
   background-color: #e5ecff;
-  color: #567df4;
+  color: #1474D2;
 }
 
 .saas-service-card .icon.bg-2 {
@@ -585,7 +585,7 @@ Saas Landing CSS
 .prising-card .price-header h4 {
   font-size: 36px;
   margin-bottom: 10px;
-  color: #567df4;
+  color: #1474D2;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
@@ -611,7 +611,7 @@ Saas Landing CSS
 }
 
 .prising-card ul li i {
-  color: #567df4;
+  color: #1474D2;
   position: absolute;
   left: 0;
   top: 5px;
@@ -636,16 +636,16 @@ Saas Landing CSS
 }
 
 .prising-card .price-btn .default-btn {
-  border: 1px solid #567df4;
+  border: 1px solid #1474D2;
 }
 
 .prising-card .price-btn .default-btn:hover {
-  background-color: #567df4;
+  background-color: #1474D2;
   color: #ffffff;
 }
 
 .prising-card:hover, .prising-card.active {
-  background-color: #567df4;
+  background-color: #1474D2;
   margin-top: -8px;
 }
 
@@ -716,7 +716,7 @@ Saas Landing CSS
 
 .saas-features .icon.bg-1 {
   background-color: #e5ecff;
-  color: #567df4;
+  color: #1474D2;
 }
 
 .saas-features .icon.bg-2 {
@@ -746,7 +746,7 @@ Saas Landing CSS
 
 /* Personal Area CSS */
 .built-saas-app {
-  background-color: #567df4;
+  background-color: #1474D2;
 }
 
 .built-saas-app .section-title h2 {
@@ -865,7 +865,7 @@ Saas Landing CSS
 }
 
 .video-btn a {
-  background-color: #567df4;
+  background-color: #1474D2;
   color: #ffffff;
   height: 100px;
   width: 100px;
@@ -1022,7 +1022,7 @@ Saas Landing CSS
 
 .clients-area .clients-slider.owl-theme .owl-nav .owl-prev:hover, .clients-area .clients-slider.owl-theme .owl-nav .owl-next:hover {
   background-color: transparent;
-  color: #567df4;
+  color: #1474D2;
 }
 
 .clients-area .clients-slider.owl-theme .owl-nav .owl-next {
@@ -1137,7 +1137,7 @@ Saas Landing CSS
   border-top-right-radius: 30px;
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
-  background-color: #567df4;
+  background-color: #1474D2;
   -webkit-box-shadow: none;
           box-shadow: none;
   font-weight: 600;
@@ -1161,7 +1161,7 @@ Saas Landing CSS
 
 /* Footer Area CSS */
 .footer-area {
-  background-color: #567df4;
+  background-color: #1474D2;
 }
 
 .footer-area.bor-radius-right {
@@ -1328,7 +1328,7 @@ Saas Landing CSS
 }
 
 .custom-modal .modal-content .user-form .default-btn {
-  background-color: #567df4;
+  background-color: #1474D2;
   color: #ffffff;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
@@ -1368,8 +1368,8 @@ Saas Landing CSS
   margin: 8px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  border: 32px solid #567df4;
-  border-color: #567df4 transparent #567df4 transparent;
+  border: 32px solid #1474D2;
+  border-color: #1474D2 transparent #1474D2 transparent;
   -webkit-animation: lds-hourglass 1.2s infinite;
           animation: lds-hourglass 1.2s infinite;
 }
@@ -1442,7 +1442,7 @@ Saas Landing CSS
 }
 
 .contact-area .contact-content .default-btn {
-  background-color: #567df4;
+  background-color: #1474D2;
   color: #ffffff;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
@@ -1490,7 +1490,7 @@ Saas Landing CSS
 }
 
 .go-top i:hover {
-  background: #567df4;
+  background: #1474D2;
   color: #ffffff;
 }
 
@@ -1520,7 +1520,7 @@ SEO Marketing CSS
   font-weight: 500;
   display: inline-block;
   margin-bottom: 15px;
-  color: #567df4;
+  color: #1474D2;
 }
 
 .seo-banner-area .seo-banner-text h1 {
@@ -1537,8 +1537,8 @@ SEO Marketing CSS
 }
 
 .seo-banner-area .seo-banner-text .seo-banner-btn .seo-btn-bg1 {
-  background-color: #567df4;
-  border: 1px solid #567df4;
+  background-color: #1474D2;
+  border: 1px solid #1474D2;
   color: #ffffff;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
@@ -1553,14 +1553,14 @@ SEO Marketing CSS
 
 .seo-banner-area .seo-banner-text .seo-banner-btn .seo-btn-bg2 {
   background-color: transparent;
-  border: 1px solid #567df4;
-  color: #567df4;
+  border: 1px solid #1474D2;
+  color: #1474D2;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
 
 .seo-banner-area .seo-banner-text .seo-banner-btn .seo-btn-bg2:hover {
-  background-color: #567df4;
+  background-color: #1474D2;
   color: #ffffff;
   -webkit-box-shadow: 0px 20px 20px 0px #cecece;
           box-shadow: 0px 20px 20px 0px #cecece;
@@ -1645,7 +1645,7 @@ SEO Marketing CSS
 }
 
 .seo-services-area-1 .seo-services-1:hover {
-  background-color: #567df4;
+  background-color: #1474D2;
 }
 
 .seo-services-area-1 .seo-services-1:hover .bg-3 i {
@@ -1708,7 +1708,7 @@ SEO Marketing CSS
 .about-us-area .about-us-text .about-card h3 {
   font-size: 45px;
   position: absolute;
-  color: #567df4;
+  color: #1474D2;
   left: 0;
   line-height: 1;
   margin-right: 8px;
@@ -1727,7 +1727,7 @@ SEO Marketing CSS
 }
 
 .about-us-area .about-us-text .about-btn .default-btn {
-  background-color: #567df4;
+  background-color: #1474D2;
   color: #ffffff;
   margin-top: 10px;
   -webkit-transition: all 0.5s;
@@ -1820,7 +1820,7 @@ SEO Marketing CSS
 }
 
 .choose-us-area .chooses-img-contant .choose-us-img {
-  background-color: #567df4;
+  background-color: #1474D2;
   padding-bottom: 55px;
   position: relative;
 }
@@ -1868,7 +1868,7 @@ SEO Marketing CSS
 
 .choose-card i.bg-1 {
   background-color: #e5ecff;
-  color: #567df4;
+  color: #1474D2;
 }
 
 .choose-card i.bg-2 {
@@ -1895,7 +1895,7 @@ SEO Marketing CSS
 }
 
 .video-btn-1 a i {
-  color: #567df4;
+  color: #1474D2;
 }
 
 .video-btn-1 a .ripple {
@@ -1928,13 +1928,13 @@ SEO Marketing CSS
   -webkit-box-shadow: 0px 10px 20px 1px #e0dddd;
           box-shadow: 0px 10px 20px 1px #e0dddd;
   background-color: #ffffff;
-  color: #567df4;
+  color: #1474D2;
   position: relative;
   z-index: 2;
 }
 
 .pricing-tab .tabs li.current {
-  background-color: #567df4;
+  background-color: #1474D2;
   color: #ffffff;
 }
 
@@ -1996,7 +1996,7 @@ SEO Marketing CSS
 }
 
 .our-service-card i.bg-1 {
-  background-color: #567df4;
+  background-color: #1474D2;
 }
 
 .our-service-card i.bg-2 {
@@ -2035,7 +2035,7 @@ SEO Marketing CSS
   margin-top: -5px;
   -webkit-box-shadow: 0px 8px 20px 0px #b9b8b9;
           box-shadow: 0px 8px 20px 0px #b9b8b9;
-  background-color: #567df4;
+  background-color: #1474D2;
 }
 
 .our-service-card:hover i {
@@ -2071,7 +2071,7 @@ SEO Marketing CSS
 .case-study-card .caption {
   padding: 15px 25px;
   position: absolute;
-  background-color: #567df4;
+  background-color: #1474D2;
   border-radius: 10px;
   left: 0;
   top: 100%;
@@ -2195,7 +2195,7 @@ SEO Marketing CSS
 
 .testimonials-slider.owl-theme .owl-nav .owl-prev:hover, .testimonials-slider.owl-theme .owl-nav .owl-next:hover {
   background-color: transparent;
-  color: #567df4;
+  color: #1474D2;
 }
 
 .testimonials-slider.owl-theme .owl-nav .owl-next {
@@ -2221,7 +2221,7 @@ Startup Agency CSS
 
 .main-navbar.startup-nav .nav-btn .default-btn {
   background-color: #ffffff;
-  color: #567df4;
+  color: #1474D2;
 }
 
 .main-navbar.startup-nav .nav-btn .default-btn:hover {
@@ -2291,30 +2291,30 @@ Startup Agency CSS
 }
 
 .startup-banner-area .startup-banner-text .startup-btn .stsrt-btn-1 {
-  background-color: #567df4;
+  background-color: #1474D2;
   color: #ffffff;
-  border: 1px solid #567df4;
+  border: 1px solid #1474D2;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
 
 .startup-banner-area .startup-banner-text .startup-btn .stsrt-btn-1:hover {
   background-color: #ffffff;
-  color: #567df4;
+  color: #1474D2;
   border: 1px solid #ffffff;
 }
 
 .startup-banner-area .startup-banner-text .startup-btn .stsrt-btn-2 {
   background-color: #ffffff;
-  color: #567df4;
+  color: #1474D2;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
 
 .startup-banner-area .startup-banner-text .startup-btn .stsrt-btn-2:hover {
-  background-color: #567df4;
+  background-color: #1474D2;
   color: #ffffff;
-  border: 1px solid #567df4;
+  border: 1px solid #1474D2;
 }
 
 .startup-banner-area .banner-video-contant {
@@ -2351,7 +2351,7 @@ Startup Agency CSS
   position: absolute;
   left: 0;
   top: 5px;
-  color: #567df4;
+  color: #1474D2;
 }
 
 .about-us-two .about-two-text .about-two-btn {
@@ -2359,8 +2359,8 @@ Startup Agency CSS
 }
 
 .about-us-two .about-two-text .about-two-btn .default-btn {
-  background-color: #567df4;
-  border: 1px solid #567df4;
+  background-color: #1474D2;
+  border: 1px solid #1474D2;
   -webkit-box-shadow: 0px 8px 20px 0px #b9b8b9;
           box-shadow: 0px 8px 20px 0px #b9b8b9;
   color: #ffffff;
@@ -2465,8 +2465,8 @@ Startup Agency CSS
 }
 
 .free-contact-area .section-title .free-contact-btn .default-btn {
-  background-color: #567df4;
-  border: 1px solid #567df4;
+  background-color: #1474D2;
+  border: 1px solid #1474D2;
   margin-top: 30px;
   color: #ffffff;
   -webkit-transition: all 0.5s;
@@ -2513,7 +2513,7 @@ Startup Agency CSS
 
 .why-choose-card i.bg-1 {
   background-color: #e5ecff;
-  color: #567df4;
+  color: #1474D2;
 }
 
 .why-choose-card i.bg-2 {
@@ -2543,7 +2543,7 @@ Startup Agency CSS
 
 .why-choose-card i.bg-7 {
   background-color: #e5ecff;
-  color: #567df4;
+  color: #1474D2;
 }
 
 .why-choose-card i.bg-8 {
@@ -2583,7 +2583,7 @@ Startup Agency CSS
 
 .aweseome-area .aweseome-img .aweseome-img-card .awesome-2 {
   border-radius: 50%;
-  border: 3px solid #567df4;
+  border: 3px solid #1474D2;
   margin-bottom: 15px;
 }
 
@@ -2605,7 +2605,7 @@ Startup Agency CSS
 }
 
 .aweseome-area .awesome-text .choose-card i.bg-1 {
-  background-color: #567df4;
+  background-color: #1474D2;
 }
 
 .aweseome-area .awesome-text .choose-card i.bg-2 {
@@ -2641,7 +2641,7 @@ Startup Agency CSS
 }
 
 .bg-f8feff .pric-tabe:hover {
-  background-color: #567df4;
+  background-color: #1474D2;
   margin-top: -8px;
 }
 
@@ -2827,7 +2827,7 @@ Personal Portfolio CSS
 }
 
 .personal-banner-area .personal-bennr-text .personal-btn .default-btn.personal-btn-1:hover {
-  background-color: #567df4;
+  background-color: #1474D2;
   border: 1px solid #ffffff;
 }
 
@@ -2906,7 +2906,7 @@ Personal Portfolio CSS
 }
 
 .information-card i.bg-1 {
-  background-color: #567df4;
+  background-color: #1474D2;
   -webkit-box-shadow: 0px 6px 20px #96abec;
           box-shadow: 0px 6px 20px #96abec;
 }
@@ -2975,7 +2975,7 @@ Personal Portfolio CSS
 .my-intro ul li i {
   position: absolute;
   background-color: #f6f4ff;
-  color: #567df4;
+  color: #1474D2;
   width: 25px;
   height: 25px;
   line-height: 25px;
@@ -2989,8 +2989,8 @@ Personal Portfolio CSS
 }
 
 .my-intro .intro-btn .default-btn {
-  background-color: #567df4;
-  border: 1px solid #567df4;
+  background-color: #1474D2;
+  border: 1px solid #1474D2;
   color: #ffffff;
 }
 
@@ -3090,7 +3090,7 @@ Personal Portfolio CSS
 
 .choose-area .choose-card i.bg-1 {
   background-color: #e5ecff;
-  color: #567df4;
+  color: #1474D2;
 }
 
 .choose-area .choose-card i.bg-2 {
@@ -3122,7 +3122,7 @@ App Landing CSS
 
 .main-navbar.app-nav .nav-btn .bg-main {
   background-color: #ffffff;
-  color: #567df4;
+  color: #1474D2;
   border: 1px solid #eee;
 }
 
@@ -3150,29 +3150,29 @@ App Landing CSS
 }
 
 .app-banner-area .app-bennr-text .app-btn .app-btn-1 {
-  background-color: #567df4;
-  border: 1px solid #567df4;
+  background-color: #1474D2;
+  border: 1px solid #1474D2;
   color: #ffffff;
 }
 
 .app-banner-area .app-bennr-text .app-btn .app-btn-1:hover {
   background-color: #ffffff;
-  color: #567df4;
+  color: #1474D2;
 }
 
 .app-banner-area .app-bennr-text .app-btn .app-btn-2 {
-  border: 1px solid #567df4;
-  color: #567df4;
+  border: 1px solid #1474D2;
+  color: #1474D2;
 }
 
 .app-banner-area .app-bennr-text .app-btn .app-btn-2:hover {
-  background-color: #567df4;
+  background-color: #1474D2;
   color: #ffffff;
 }
 
 .app-banner-area .app-bennr-text span {
   font-size: 18px;
-  color: #567df4;
+  color: #1474D2;
   font-weight: 500;
   display: inline-block;
   margin-bottom: 15px;
@@ -3203,7 +3203,7 @@ App Landing CSS
   left: 0;
   padding-right: 10px;
   border-right: 1px solid #c1bfcb;
-  color: #567df4;
+  color: #1474D2;
 }
 
 .app-banner-area .app-bennr-text .app-text p {
@@ -3424,7 +3424,7 @@ App Landing CSS
 }
 
 .easy-step-area .easy-step-card .step-signle-card i.bg-1 {
-  background-color: #567df4;
+  background-color: #1474D2;
 }
 
 .easy-step-area .easy-step-card .step-signle-card i.bg-2 {
@@ -3458,7 +3458,7 @@ App Landing CSS
 
 /* Powerful Area */
 .powerful-area {
-  background-color: #567df4;
+  background-color: #1474D2;
   border-radius: 0px 0px 700px 0px;
 }
 
@@ -3575,7 +3575,7 @@ App Landing CSS
 }
 
 .perfect-area .perfect-card i {
-  background-color: #567df4;
+  background-color: #1474D2;
   color: #ffffff;
   width: 55px;
   height: 55px;
@@ -3609,7 +3609,7 @@ App Landing CSS
 
 .clients-slider-two-area .clients-slider-two .slider-two-item img {
   border-radius: 50%;
-  border: 3px solid #567df4;
+  border: 3px solid #1474D2;
   position: absolute;
   top: 40px;
   right: 35px;
@@ -3649,14 +3649,14 @@ App Landing CSS
 }
 
 .clients-slider-two-area .clients-slider-two.owl-theme .owl-dots .owl-dot span {
-  background-color: #567df4;
+  background-color: #1474D2;
   height: 12px;
   width: 12px;
   margin: 0 6px;
 }
 
 .clients-slider-two-area .clients-slider-two.owl-theme .owl-dots .owl-dot.active span {
-  background-color: #567df4;
+  background-color: #1474D2;
   width: 50px;
   height: 12px;
 }
@@ -3688,14 +3688,14 @@ App Landing CSS
 }
 
 .screens-slider-area .screens-slider.owl-theme .owl-dots .owl-dot span {
-  background-color: #567df4;
+  background-color: #1474D2;
   height: 12px;
   width: 12px;
   margin: 0 6px;
 }
 
 .screens-slider-area .screens-slider.owl-theme .owl-dots .owl-dot.active span {
-  background-color: #567df4;
+  background-color: #1474D2;
   width: 50px;
   height: 12px;
 }
@@ -4177,7 +4177,7 @@ Demo Area Style
   height: 100%;
   top: 0;
   left: 0;
-  background-color: #567df4;
+  background-color: #1474D2;
   opacity: 0;
   border-radius: 4px;
   -webkit-transition: all 0.5s;
