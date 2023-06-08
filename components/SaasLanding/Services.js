@@ -1,83 +1,71 @@
 import React from 'react';
 
 const Services = () => {
-    return (
-        <div id="services" className="saas-services-area pt-260 pb-70">
-            <div className="container">
-                <div className="section-title">
-                    <span>Our Services</span>
-                    <h2>Best Services Make Your Task Easier</h2>
-                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores.</p>
-                </div>
-
-                <div className="row">
-                    <div className="col-lg-4 col-sm-6">
-                        <div className="saas-service-card">
-                            <div className="icon bg-1">
-                                <i className="las la-bullhorn"></i>
-                            </div>
-                            <h3>Business Marketing</h3>
-                            <p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the.</p>
-                        </div>
-                    </div>
-
-                    <div className="col-lg-4 col-sm-6">
-                        <div className="saas-service-card">
-                            <div className="icon bg-2">
-                                <i className="las la-chart-pie"></i>
-                            </div>
-                            <h3>Boost SEO Ranking</h3>
-                            <p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the.</p>
-                        </div>
-                    </div>
-
-                    <div className="col-lg-4 col-sm-6">
-                        <div className="saas-service-card">
-                            <div className="icon bg-3">
-                                <i className="las la-stream"></i>
-                            </div>
-                            <h3>Office Management</h3>
-                            <p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the.</p>
-                        </div>
-                    </div>
-
-                    <div className="col-lg-4 col-sm-6">
-                        <div className="saas-service-card">
-                            <div className="icon bg-4">
-                                <i className="las la-lock"></i>
-                            </div>
-                            <h3>File Security</h3>
-                            <p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the.</p>
-                        </div>
-                    </div>
-
-                    <div className="col-lg-4 col-sm-6">
-                        <div className="saas-service-card">
-                            <div className="icon bg-5">
-                                <i className="las la-project-diagram"></i>
-                            </div>
-                            <h3>Client Managing</h3>
-                            <p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the.</p>
-                        </div>
-                    </div>
-
-                    <div className="col-lg-4 col-sm-6">
-                        <div className="saas-service-card">
-                            <div className="icon bg-6">
-                                <i className="las la-database"></i>
-                            </div>
-                            <h3>Data Collection</h3>
-                            <p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div className="service-shape">
-                    <img src="/images/shape/shape12.png" alt="Shape" />
-                </div>
-            </div>
+  return (
+    <div id='services' className='saas-services-area pt-260 pb-70'>
+      <div className='container'>
+        <div className='section-title'>
+          {/* <span>Our Services</span> */}
+          <h2>Plataforma para el Control de Proyectos de Inversión Pública</h2>
+          <p>
+            Descubre todas las ventajas de nuestra plataforma,para elaborar
+            informes mensuales y realizar el control de la ejecución de obras
+            públicas. Gracias a sus distinto módulos (metrados, almacén y
+            financiero) podrás elaborar tus informes mensuales con un solo click
+            de manera más eficiente y organizada.
+          </p>
         </div>
-    )
-}
+        <div className='section-title'>
+          <h2> Beneficios de utilizar nuestra plataforma </h2>
+        </div>
+        <div className='row'>
+          <div className='col-lg-4 col-sm-6'>
+            <div className='saas-service-card'>
+              <div className='icon bg-1'>
+                <i className='las la-clock'></i>
+              </div>
+              <h3>Optimizar</h3>
+              <p>
+                Reduce el tiempo necesario para que elabores tu informe mensual
+                hasta en un 50%.
+              </p>
+            </div>
+          </div>
+
+          <div className='col-lg-4 col-sm-6'>
+            <div className='saas-service-card'>
+              <div className='icon bg-4'>
+                <i className='las la-lock'></i>
+              </div>
+              <h3>Seguridad</h3>
+              <p>
+                Disminuye la cantidad de errores de los informes mensuales hasta
+                en un 30%, gracias al sistema de control de errores.
+              </p>
+            </div>
+          </div>
+
+          <div className='col-lg-4 col-sm-6'>
+            <div className='saas-service-card'>
+              <div className='icon bg-6'>
+                <i className='las la-database'></i>
+              </div>
+              <h3>Organización</h3>
+              <p>
+                En un solo archivo tienes todos los informes mensuales
+                organizados y entrelazados, olvidate de tener un excel por cada
+                mes.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div className='service-shape'>
+          <img src='/images/shape/shape12.png' alt='Shape' />
+        </div>
+      </div>
+    </div>
+  );
+};
 
 export default Services;

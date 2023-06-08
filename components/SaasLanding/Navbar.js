@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Link from 'next/link';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
-import SidebarDemosModal from '../_App/SidebarDemosModal';
 
 class Navbar extends Component {
   state = {
@@ -76,7 +75,7 @@ class Navbar extends Component {
             <Link href='/saas-landing'>
               <a className='navbar-brand'>
                 <img
-                  width='200px'
+                  width='300px'
                   src='/images/logo_construtec.png'
                   alt='logo'
                 />
@@ -153,10 +152,10 @@ class Navbar extends Component {
               </ul>
 
               <div className='nav-btn'>
-                <Link href='#'>
+                <Link href='#wait-list'>
                   <a className='default-btn bg-main mr-2'>Ingresar</a>
                 </Link>
-                <Link href='#'>
+                <Link href='#wait-list'>
                   <a className='default-btn bg-color'>Registrarse</a>
                 </Link>
               </div>
@@ -165,20 +164,11 @@ class Navbar extends Component {
         </nav>
 
         {/* Sidebar Demos Modal */}
-        <div className='demo-side-icon'>
-          <button
-            type='button'
-            className='modal-btn'
-            onClick={this.toggleModal}
-          >
-            <span>Demos</span>
-          </button>
-        </div>
 
-        <SidebarDemosModal
+        {/* <SidebarDemosModal
           onClick={this.toggleModal}
           active={this.state.sidebarModal ? 'show' : ''}
-        />
+        /> */}
       </>
     );
   }

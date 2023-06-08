@@ -305,7 +305,7 @@ Saas Landing CSS
 
 .saas-banner-area .saas-banner-content {
   text-align: center;
-  max-width: 640px;
+  max-width: 950px;
   margin: auto;
   padding-top: 170px;
   padding-bottom: 100px;
@@ -329,11 +329,11 @@ Saas Landing CSS
   color: #ffffff;
   font-size: 20px;
   max-width: 485px;
-  margin: 0 auto 30px;
+  margin: 0 auto 5px;
 }
 
 .saas-banner-area .saas-banner-btn .default-btn.bg-white:hover {
-  background-color: #242424 !important;
+  background-color: #FD4C5C !important;
   color: #ffffff;
   border: 1px solid #242424;
   -webkit-box-shadow: 0px 20px 20px 0px #3f61b8;
@@ -412,6 +412,8 @@ Saas Landing CSS
 .saas-banner-area .saas-banner-img {
   position: relative;
   z-index: 1;
+  display: flex;
+  justify-content: center;
 }
 
 .saas-banner-area .saas-banner-img .saas-img-1 {
@@ -1336,7 +1338,7 @@ Saas Landing CSS
 }
 
 .custom-modal .modal-content .user-form .default-btn:hover {
-  background-color: #242424;
+  background-color: #FD4C5C;
   color: #ffffff;
 }
 
@@ -1476,7 +1478,7 @@ Saas Landing CSS
 }
 
 .go-top i {
-  background: #242424;
+  background: #FD4C5C;
   color: #ffffff;
   width: 40px;
   height: 40px;
@@ -1904,8 +1906,8 @@ SEO Marketing CSS
 
 /* Our Pricing Area */
 .our-pricing-area .pric-tabe:hover .price-btn .bg-color {
-  background-color: #ffba00;
-  border: 1px solid #ffba00;
+  background-color: #FD4C5C;
+  border: 1px solid #FD4C5C;
 }
 
 .pricing-tab .tabs {
@@ -1940,7 +1942,7 @@ SEO Marketing CSS
 
 .pricing-tab .tabs li .save-card {
   position: absolute;
-  background-color: #242424;
+  background-color: #FD4C5C;
   border-radius: 45px !important;
   color: #ffffff;
   padding: 10px 10px;

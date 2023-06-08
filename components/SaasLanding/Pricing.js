@@ -1,173 +1,342 @@
-import React from 'react';
 import Link from 'next/link';
+import React, { Component } from 'react';
 
-const Pricing = () => {
+export default class Pricing extends Component {
+  // Tab
+  openTabSection = (evt, tabNmae) => {
+    let i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName('tabs-item');
+    for (i = 0; i < tabcontent.length; i++) {
+      tabcontent[i].classList.remove('fadeInUp');
+      tabcontent[i].style.display = 'none';
+    }
+
+    tablinks = document.getElementsByTagName('li');
+    for (i = 0; i < tablinks.length; i++) {
+      tablinks[i].className = tablinks[i].className.replace('current', '');
+    }
+
+    document.getElementById(tabNmae).style.display = 'block';
+    document.getElementById(tabNmae).className += ' fadeInUp animated';
+    evt.currentTarget.className += 'current';
+  };
+
+  render() {
     return (
-        <div id="pricing" className="prising-area pt-100 pb-70">
-            <div className="container">
-                <div className="section-title">
-                    <span>Our Pricing</span>    
-                    <h2>Suitable And Nice Pricing Plan With Our Top Services</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+      <div id='pricing' className='our-pricing-area bg-f8feff pt-100 pb-70'>
+        <div className='container'>
+          <div className='section-title'>
+            <h2>Nuestros precios</h2>
+            <p>
+              En esta sección puedes ver los precios de los planes de
+              Constructec. Elige el plan que mejor se acomode a tus necesidades:
+            </p>
+          </div>
+
+          <div className='tab pricing-tab'>
+            <ul className='tabs'>
+              <li
+                className='current'
+                onClick={(e) => this.openTabSection(e, 'MonthlyPlan')}
+              >
+                Planes mensuales
+              </li>
+              <li onClick={(e) => this.openTabSection(e, 'YearlyPlan')}>
+                Planes Anuales
+                <span className='save-card'>
+                  <span className='save'>Ahorra</span> 33%
+                </span>
+              </li>
+            </ul>
+
+            <div className='tab-content'>
+              <div id='MonthlyPlan' className='tabs-item'>
+                <div className='row'>
+                  <div className='col-lg-4 col-md-6 col-sm-6'>
+                    <div className='prising-card pric-tabe'>
+                      <div className='price-header text-center'>
+                        <h3>Gratis</h3>
+                        <h4>S/. 0</h4>
+                        <p>Por mes</p>
+                      </div>
+
+                      <ul>
+                        <li>
+                          <i className='las la-check'></i>
+                          Valido por 30 días
+                        </li>
+                        <li>
+                          <i className='las la-check'></i>
+                          Puedes crear un solo proyecto
+                        </li>
+                        <li>
+                          <i className='las la-check'></i>
+                          Acceso al Modulo almacén
+                        </li>
+                        <li>
+                          <i className='las la-check'></i>
+                          Sin limites en los reportes generados
+                        </li>
+                        <li>
+                          <i className='las la-check'></i>
+                          Asistencia 24/7
+                        </li>
+                        <li className='not-provide'>
+                          <i className='las la-times'></i>
+                          Acceso al módulo valorizaciones
+                        </li>
+                        <li className='not-provide'>
+                          <i className='las la-times'></i>
+                          Acceso al módulo financiero
+                        </li>
+                      </ul>
+
+                      <div className='price-btn text-center'>
+                        <Link href='#wait-list'>
+                          <a className='default-btn bg-color'>Suscribrise</a>
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className='col-lg-4 col-md-6 col-sm-6'>
+                    <div className='prising-card pric-tabe'>
+                      <div className='price-header text-center'>
+                        <h3>Básico</h3>
+                        <h4>S/.50</h4>
+                        <p>Por Mes</p>
+                      </div>
+
+                      <ul>
+                        <li>
+                          <i className='las la-check'></i>
+                          Valido mientras dure la suscripción
+                        </li>
+                        <li>
+                          <i className='las la-check'></i>
+                          Puedes crear tres proyectos
+                        </li>
+                        <li>
+                          <i className='las la-check'></i>
+                          Acceso al módulo almacen o valorizaciones o financiero
+                        </li>
+
+                        <li>
+                          <i className='las la-check'></i>
+                          Sin limites en los resportes generados
+                        </li>
+                        <li>
+                          <i className='las la-check'></i>
+                          Asistencia técnica 24/7
+                        </li>
+                        <li className='not-provide'>
+                          <i className='las la-times'></i>
+                          No puedes acceder a los tres módulos
+                        </li>
+                      </ul>
+
+                      <div className='price-btn text-center'>
+                        <Link href='#wait-list'>
+                          <a className='default-btn bg-color'>Suscribirse</a>
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className='col-lg-4 col-md-6 col-sm-6 offset-sm-3 offset-lg-0'>
+                    <div className='prising-card pric-tabe'>
+                      <div className='price-header text-center'>
+                        <h3>Premium</h3>
+                        <h4>S/. 100</h4>
+                        <p>Por mes</p>
+                      </div>
+
+                      <ul>
+                        <li>
+                          <i className='las la-check'></i>
+                          Valido mientras dure la suscripción
+                        </li>
+                        <li>
+                          <i className='las la-check'></i>
+                          Puedes crear tres proyectos
+                        </li>
+                        <li>
+                          <i className='las la-check'></i>Acceso al módulo
+                          Almacen
+                        </li>
+                        <li>
+                          <i className='las la-check'></i>Acceso al módulo
+                          Valorizaciones
+                        </li>
+                        <li>
+                          <i className='las la-check'></i>Acceso al módulo
+                          financiero
+                        </li>
+                        <li>
+                          <i className='las la-check'></i>
+                          Sin limites en los resportes generados
+                        </li>
+                        <li>
+                          <i className='las la-check'></i>
+                          Asistencia técnica 24/7
+                        </li>
+                      </ul>
+
+                      <div className='price-btn text-center'>
+                        <Link href='#wait-list'>
+                          <a className='default-btn bg-color'>Suscribirse</a>
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
                 </div>
+              </div>
 
-                <div className="row">
-                    <div className="col-lg-4 col-sm-6">
-                        <div className="prising-card">
-                            <div className="price-header text-center">
-                                <h3>Personal Pack</h3>
-                                <h4>$30.00</h4>
-                                <p>Per Month</p>
-                            </div>
+              <div id='YearlyPlan' className='tabs-item'>
+                <div className='row'>
+                  <div className='col-lg-4 col-md-6 col-sm-6'>
+                    <div className='prising-card pric-tabe'>
+                      <div className='price-header text-center'>
+                        <h3>Gratis</h3>
+                        <h4>S/. 0</h4>
+                        <p>Por Mes</p>
+                      </div>
 
-                            <ul>
-                                <li>
-                                    <i className="las la-check"></i>
-                                    Limited Trips
-                                </li>
-                                <li>
-                                    <i className="las la-check"></i>
-                                    Available Trips History
-                                </li>
-                                <li>
-                                    <i className="las la-check"></i>
-                                    1 Offer Per Month
-                                </li>
-                                <li>
-                                    <i className="las la-check"></i>
-                                    No Free Trip
-                                </li>
-                                <li className="not-provide">
-                                    <i className="las la-times"></i>
-                                    Membership Card
-                                </li>
-                                <li  className="not-provide">
-                                    <i className="las la-times"></i>
-                                    Trip Cancellation
-                                </li>
-                                <li  className="not-provide">
-                                    <i className="las la-times"></i>
-                                    Custom Services
-                                </li>
-                                <li  className="not-provide">
-                                    <i className="las la-times"></i>
-                                    Money Return
-                                </li>
-                            </ul>
+                      <ul>
+                        <li>
+                          <i className='las la-check'></i>
+                          Valido por 30 días
+                        </li>
+                        <li>
+                          <i className='las la-check'></i>
+                          Puedes crear un solo proyecto
+                        </li>
+                        <li>
+                          <i className='las la-check'></i>
+                          Acceso al Modulo almacén
+                        </li>
+                        <li>
+                          <i className='las la-check'></i>
+                          Sin limites en los reportes generados
+                        </li>
+                        <li>
+                          <i className='las la-check'></i>
+                          Asistencia 24/7
+                        </li>
+                        <li className='not-provide'>
+                          <i className='las la-times'></i>
+                          Acceso al módulo valorizaciones
+                        </li>
+                        <li className='not-provide'>
+                          <i className='las la-times'></i>
+                          Acceso al módulo financiero
+                        </li>
+                      </ul>
 
-                            <div className="price-btn text-center">
-                                <Link href="#">
-                                    <a className="default-btn bg-color">Get Started</a>
-                                </Link>
-                            </div>
-                        </div>
+                      <div className='price-btn text-center'>
+                        <Link href='#wait-list'>
+                          <a className='default-btn bg-color'>Suscribirse</a>
+                        </Link>
+                      </div>
                     </div>
+                  </div>
 
-                    <div className="col-lg-4 col-sm-6">
-                        <div className="prising-card active">
-                            <div className="price-header text-center">
-                                <h3>Business className</h3>
-                                <h4>$50.00</h4>
-                                <p>Per Month</p>
-                            </div>
+                  <div className='col-lg-4 col-md-6 col-sm-6'>
+                    <div className='prising-card pric-tabe'>
+                      <div className='price-header text-center'>
+                        <h3>Basico</h3>
+                        <h4>S/. 400 / año</h4>
+                        <p>S/. 33/mes</p>
+                      </div>
 
-                            <ul>
-                                <li>
-                                    <i className="las la-check"></i>
-                                    Limited Trips
-                                </li>
-                                <li>
-                                    <i className="las la-check"></i>
-                                    Available Trips History
-                                </li>
-                                <li>
-                                    <i className="las la-check"></i>
-                                    1 Offer Per Month
-                                </li>
-                                <li>
-                                    <i className="las la-check"></i>
-                                    No Free Trip
-                                </li>
-                                <li>
-                                    <i className="las la-check"></i>
-                                    Membership Card
-                                </li>
-                                <li>
-                                    <i className="las la-check"></i>
-                                    Trip Cancellation
-                                </li>
-                                <li  className="not-provide">
-                                    <i className="las la-times"></i>
-                                    Custom Services
-                                </li>
-                                <li  className="not-provide">
-                                    <i className="las la-times"></i>
-                                    Money Return
-                                </li>
-                            </ul>
+                      <ul>
+                        <li>
+                          <i className='las la-check'></i>
+                          Valido mientras dure la suscripción
+                        </li>
+                        <li>
+                          <i className='las la-check'></i>
+                          Puedes crear tres proyectos
+                        </li>
+                        <li>
+                          <i className='las la-check'></i>
+                          Acceso al módulo almacen o valorizaciones o financiero
+                        </li>
 
-                            <div className="price-btn text-center">
-                                <Link href="#">
-                                    <a className="default-btn bg-color">Get Started</a>
-                                </Link>
-                            </div>
-                        </div>
+                        <li>
+                          <i className='las la-check'></i>
+                          Sin limites en los resportes generados
+                        </li>
+                        <li>
+                          <i className='las la-check'></i>
+                          Asistencia técnica 24/7
+                        </li>
+                        <li className='not-provide'>
+                          <i className='las la-times'></i>
+                          No puedes acceder a los tres módulos
+                        </li>
+                      </ul>
+
+                      <div className='price-btn text-center'>
+                        <Link href='#wait-list'>
+                          <a className='default-btn bg-color'>Suscribirse</a>
+                        </Link>
+                      </div>
                     </div>
+                  </div>
 
-                    <div className="col-lg-4 col-sm-6 offset-sm-3 offset-lg-0">
-                        <div className="prising-card">
-                            <div className="price-header text-center">
-                                <h3>Premium</h3>
-                                <h4>$100.00</h4>
-                                <p>Per Month</p>
-                            </div>
+                  <div className='col-lg-4 col-md-6 col-sm-6'>
+                    <div className='prising-card pric-tabe'>
+                      <div className='price-header text-center'>
+                        <h3>Premium</h3>
+                        <h4>S/. 800 / año</h4>
+                        <p>S/. 66/mes</p>
+                      </div>
 
-                            <ul>
-                                <li>
-                                    <i className="las la-check"></i>
-                                    Limited Trips
-                                </li>
-                                <li>
-                                    <i className="las la-check"></i>
-                                    Available Trips History
-                                </li>
-                                <li>
-                                    <i className="las la-check"></i>
-                                    1 Offer Per Month
-                                </li>
-                                <li>
-                                    <i className="las la-check"></i>
-                                    No Free Trip
-                                </li>
-                                <li>
-                                    <i className="las la-check"></i>
-                                    Membership Card
-                                </li>
-                                <li>
-                                    <i className="las la-check"></i>
-                                    Trip Cancellation
-                                </li>
-                                <li>
-                                    <i className="las la-check"></i>
-                                    Custom Services
-                                </li>
-                                <li>
-                                    <i className="las la-check"></i>
-                                    Money Return
-                                </li>
-                            </ul>
+                      <ul>
+                        <li>
+                          <i className='las la-check'></i>
+                          Valido mientras dure la suscripción
+                        </li>
+                        <li>
+                          <i className='las la-check'></i>
+                          Puedes crear tres proyectos
+                        </li>
+                        <li>
+                          <i className='las la-check'></i>Acceso al módulo
+                          Almacen
+                        </li>
+                        <li>
+                          <i className='las la-check'></i>Acceso al módulo
+                          Valorizaciones
+                        </li>
+                        <li>
+                          <i className='las la-check'></i>Acceso al módulo
+                          financiero
+                        </li>
+                        <li>
+                          <i className='las la-check'></i>
+                          Sin limites en los resportes generados
+                        </li>
+                        <li>
+                          <i className='las la-check'></i>
+                          Asistencia técnica 24/7
+                        </li>
+                      </ul>
 
-                            <div className="price-btn text-center">
-                                <Link href="#">
-                                    <a className="default-btn bg-color">Get Started</a>
-                                </Link>
-                            </div>
-                        </div>
+                      <div className='price-btn text-center'>
+                        <Link href='#wait-list'>
+                          <a className='default-btn bg-color'>Suscribirse</a>
+                        </Link>
+                      </div>
                     </div>
+                  </div>
                 </div>
+              </div>
             </div>
+          </div>
         </div>
-    )
+      </div>
+    );
+  }
 }
-
-export default Pricing;

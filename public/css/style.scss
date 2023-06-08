@@ -819,6 +819,9 @@ Saas Landing CSS
     .clients-slider {
         position: relative;
         .clients-slider-item {
+            display: flex;
+            justify-content: center;
+            width: 100%;
             .client-text {
                 padding-left: 30px;
                 padding-right: 30px;
@@ -1157,7 +1160,7 @@ Saas Landing CSS
                 transition: $transition;
                 display: inline-block;
                 &:hover {
-                    background-color: $black-color;
+                    background-color: #FD4C5C !important;
                     color: $white-color;
                 }
             }
@@ -1240,7 +1243,7 @@ Saas Landing CSS
             color: $white-color;
             transition: $transition;
             &:hover {
-                background-color: $black-color;
+                background-color: #FD4C5C!important;
                 color: $white-color;
             }
         }
