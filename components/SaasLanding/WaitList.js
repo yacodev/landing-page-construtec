@@ -19,11 +19,15 @@ const WaitList = () => {
             </div>
           </div>
         </div>
-        <div
-          class='launchlist-widget'
-          data-key-id='vUNzeH'
-          data-height='180px'
-        ></div>
+        <div className='row align-items-center'>
+          <iframe
+            src='https://getlaunchlist.com/w/e/vUNzeH'
+            width='500'
+            height='300'
+            frameborder='0'
+            scrolling='auto'
+          ></iframe>
+        </div>
       </div>
     </div>
   );
