@@ -24,7 +24,7 @@ const AppDownload = () => {
           <div className='col-lg-6'>
             <div className='download-image'>
               <img
-                src='/images/saas-img/saas-mobile1.png'
+                src='/images/saas-img/saas-mobile-construtec.png'
                 className='mobile-1'
                 alt='Image'
               />

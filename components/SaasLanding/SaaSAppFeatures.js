@@ -61,7 +61,10 @@ const SaaSAppFeatures = () => {
         </div>
 
         <div className='parsonal-image'>
-          <img src='/images/saas-img/saas-lp-display.png' alt='Image' />
+          <img
+            src='/images/saas-img/saas-lp-display-construtec.png'
+            alt='Image'
+          />
         </div>
       </div>
     </div>
