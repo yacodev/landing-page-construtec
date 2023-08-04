@@ -28,8 +28,9 @@ export default class Pricing extends Component {
           <div className='section-title'>
             <h2>Nuestros precios</h2>
             <p>
-              En esta sección puedes ver los precios de los planes de
-              Constructec. Elige el plan que mejor se acomode a tus necesidades:
+              Contamos con planes mensuales y anuales, para que puedas acceder a
+              un módulo o a toda la plataforma. Elige el plan que mejor se
+              acomode a tus necesidades:
             </p>
           </div>
 
@@ -42,9 +43,9 @@ export default class Pricing extends Component {
                 Planes mensuales
               </li>
               <li onClick={(e) => this.openTabSection(e, 'YearlyPlan')}>
-                Planes Anuales
+                Planes anuales
                 <span className='save-card'>
-                  <span className='save'>Ahorra</span> 33%
+                  <span className='save'>Ahorra</span> 40%
                 </span>
               </li>
             </ul>
@@ -55,45 +56,42 @@ export default class Pricing extends Component {
                   <div className='col-lg-4 col-md-6 col-sm-6'>
                     <div className='prising-card pric-tabe'>
                       <div className='price-header text-center'>
-                        <h3>Gratis</h3>
-                        <h4>S/. 0</h4>
-                        <p>Por mes</p>
+                        <h3>Módulo almacen</h3>
+                        <h4>S/.40</h4>
+                        <p>Por Mes</p>
                       </div>
 
                       <ul>
                         <li>
                           <i className='las la-check'></i>
-                          Valido por 30 días
+                          Valido mientras dure la suscripción.
                         </li>
                         <li>
                           <i className='las la-check'></i>
-                          Puedes crear un solo proyecto
+                          Puedes tener hasta tres proyectos activos.
                         </li>
                         <li>
                           <i className='las la-check'></i>
-                          Acceso al Modulo almacén
+                          Acceso al módulo almacen.
+                        </li>
+
+                        <li>
+                          <i className='las la-check'></i>
+                          Sin limites en los resportes generados.
                         </li>
                         <li>
                           <i className='las la-check'></i>
-                          Sin limites en los reportes generados
-                        </li>
-                        <li>
-                          <i className='las la-check'></i>
-                          Asistencia 24/7
+                          Asistencia técnica 24/7.
                         </li>
                         <li className='not-provide'>
                           <i className='las la-times'></i>
-                          Acceso al módulo valorizaciones
-                        </li>
-                        <li className='not-provide'>
-                          <i className='las la-times'></i>
-                          Acceso al módulo financiero
+                          No puedes acceder al módulo valorizaciones,
                         </li>
                       </ul>
 
                       <div className='price-btn text-center'>
                         <Link href='#wait-list'>
-                          <a className='default-btn bg-color'>Suscribrise</a>
+                          <a className='default-btn bg-color'>Suscribirse</a>
                         </Link>
                       </div>
                     </div>
@@ -102,36 +100,36 @@ export default class Pricing extends Component {
                   <div className='col-lg-4 col-md-6 col-sm-6'>
                     <div className='prising-card pric-tabe'>
                       <div className='price-header text-center'>
-                        <h3>Básico</h3>
-                        <h4>S/.50</h4>
+                        <h3>Módulo valorizaciones</h3>
+                        <h4>S/.40</h4>
                         <p>Por Mes</p>
                       </div>
 
                       <ul>
                         <li>
                           <i className='las la-check'></i>
-                          Valido mientras dure la suscripción
+                          Valido mientras dure la suscripción.
                         </li>
                         <li>
                           <i className='las la-check'></i>
-                          Puedes crear tres proyectos
+                          Puedes tener hasta tres proyectos activos.
                         </li>
                         <li>
                           <i className='las la-check'></i>
-                          Acceso al módulo almacen o valorizaciones o financiero
+                          Acceso al módulo valorizaciones.
                         </li>
 
                         <li>
                           <i className='las la-check'></i>
-                          Sin limites en los resportes generados
+                          Sin limites en los resportes generados.
                         </li>
                         <li>
                           <i className='las la-check'></i>
-                          Asistencia técnica 24/7
+                          Asistencia técnica 24/7.
                         </li>
                         <li className='not-provide'>
                           <i className='las la-times'></i>
-                          No puedes acceder a los tres módulos
+                          No puedes acceder al módulo almacen,
                         </li>
                       </ul>
 
@@ -147,38 +145,34 @@ export default class Pricing extends Component {
                     <div className='prising-card pric-tabe'>
                       <div className='price-header text-center'>
                         <h3>Premium</h3>
-                        <h4>S/. 100</h4>
+                        <h4>S/. 60</h4>
                         <p>Por mes</p>
                       </div>
 
                       <ul>
                         <li>
                           <i className='las la-check'></i>
-                          Valido mientras dure la suscripción
+                          Valido mientras dure la suscripción.
                         </li>
                         <li>
                           <i className='las la-check'></i>
-                          Puedes crear tres proyectos
+                          Puedes tener hasta tres proyectos activos.
                         </li>
                         <li>
                           <i className='las la-check'></i>Acceso al módulo
-                          Almacen
+                          Almacen.
                         </li>
                         <li>
                           <i className='las la-check'></i>Acceso al módulo
-                          Valorizaciones
-                        </li>
-                        <li>
-                          <i className='las la-check'></i>Acceso al módulo
-                          financiero
+                          Valorizaciones.
                         </li>
                         <li>
                           <i className='las la-check'></i>
-                          Sin limites en los resportes generados
+                          Sin limites en los resportes generados.
                         </li>
                         <li>
                           <i className='las la-check'></i>
-                          Asistencia técnica 24/7
+                          Asistencia técnica 24/7.
                         </li>
                       </ul>
 
@@ -197,56 +191,9 @@ export default class Pricing extends Component {
                   <div className='col-lg-4 col-md-6 col-sm-6'>
                     <div className='prising-card pric-tabe'>
                       <div className='price-header text-center'>
-                        <h3>Gratis</h3>
-                        <h4>S/. 0</h4>
-                        <p>Por Mes</p>
-                      </div>
-
-                      <ul>
-                        <li>
-                          <i className='las la-check'></i>
-                          Valido por 30 días
-                        </li>
-                        <li>
-                          <i className='las la-check'></i>
-                          Puedes crear un solo proyecto
-                        </li>
-                        <li>
-                          <i className='las la-check'></i>
-                          Acceso al Modulo almacén
-                        </li>
-                        <li>
-                          <i className='las la-check'></i>
-                          Sin limites en los reportes generados
-                        </li>
-                        <li>
-                          <i className='las la-check'></i>
-                          Asistencia 24/7
-                        </li>
-                        <li className='not-provide'>
-                          <i className='las la-times'></i>
-                          Acceso al módulo valorizaciones
-                        </li>
-                        <li className='not-provide'>
-                          <i className='las la-times'></i>
-                          Acceso al módulo financiero
-                        </li>
-                      </ul>
-
-                      <div className='price-btn text-center'>
-                        <Link href='#wait-list'>
-                          <a className='default-btn bg-color'>Suscribirse</a>
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className='col-lg-4 col-md-6 col-sm-6'>
-                    <div className='prising-card pric-tabe'>
-                      <div className='price-header text-center'>
-                        <h3>Basico</h3>
-                        <h4>S/. 400 / año</h4>
-                        <p>S/. 33/mes</p>
+                        <h3>Módulo almacen</h3>
+                        <h4>S/. 25/mes</h4>
+                        <p>S/. 300 / año</p>
                       </div>
 
                       <ul>
@@ -256,11 +203,11 @@ export default class Pricing extends Component {
                         </li>
                         <li>
                           <i className='las la-check'></i>
-                          Puedes crear tres proyectos
+                          Puedes tener hasta tres proyectos activos.
                         </li>
                         <li>
                           <i className='las la-check'></i>
-                          Acceso al módulo almacen o valorizaciones o financiero
+                          Acceso al módulo almacen.
                         </li>
 
                         <li>
@@ -273,7 +220,50 @@ export default class Pricing extends Component {
                         </li>
                         <li className='not-provide'>
                           <i className='las la-times'></i>
-                          No puedes acceder a los tres módulos
+                          No puedes acceder al módulo valorizaciones
+                        </li>
+                      </ul>
+
+                      <div className='price-btn text-center'>
+                        <Link href='#wait-list'>
+                          <a className='default-btn bg-color'>Suscribirse</a>
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+                  <div className='col-lg-4 col-md-6 col-sm-6'>
+                    <div className='prising-card pric-tabe'>
+                      <div className='price-header text-center'>
+                        <h3>Módulo valorizaciones</h3>
+                        <h4>S/. 25/mes</h4>
+                        <p>S/. 300 / año</p>
+                      </div>
+
+                      <ul>
+                        <li>
+                          <i className='las la-check'></i>
+                          Valido mientras dure la suscripción
+                        </li>
+                        <li>
+                          <i className='las la-check'></i>
+                          Puedes tener hasta tres proyectos activos.
+                        </li>
+                        <li>
+                          <i className='las la-check'></i>
+                          Acceso al módulo valorizaciones.
+                        </li>
+
+                        <li>
+                          <i className='las la-check'></i>
+                          Sin limites en los resportes generados
+                        </li>
+                        <li>
+                          <i className='las la-check'></i>
+                          Asistencia técnica 24/7
+                        </li>
+                        <li className='not-provide'>
+                          <i className='las la-times'></i>
+                          No puedes acceder al módulo almacen
                         </li>
                       </ul>
 
@@ -289,8 +279,8 @@ export default class Pricing extends Component {
                     <div className='prising-card pric-tabe'>
                       <div className='price-header text-center'>
                         <h3>Premium</h3>
-                        <h4>S/. 800 / año</h4>
-                        <p>S/. 66/mes</p>
+                        <h4>S/. 35/mes</h4>
+                        <p>S/. 420 / año</p>
                       </div>
 
                       <ul>
@@ -309,10 +299,6 @@ export default class Pricing extends Component {
                         <li>
                           <i className='las la-check'></i>Acceso al módulo
                           Valorizaciones
-                        </li>
-                        <li>
-                          <i className='las la-check'></i>Acceso al módulo
-                          financiero
                         </li>
                         <li>
                           <i className='las la-check'></i>

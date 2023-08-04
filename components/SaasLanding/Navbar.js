@@ -151,7 +151,7 @@ class Navbar extends Component {
                 </li>
               </ul>
 
-              <div className='nav-btn'>
+              <div className='nav-btn '>
                 <Link href='#wait-list'>
                   <a className='default-btn bg-main mr-2'>Ingresar</a>
                 </Link>
@@ -162,13 +162,6 @@ class Navbar extends Component {
             </div>
           </div>
         </nav>
-
-        {/* Sidebar Demos Modal */}
-
-        {/* <SidebarDemosModal
-          onClick={this.toggleModal}
-          active={this.state.sidebarModal ? 'show' : ''}
-        /> */}
       </>
     );
   }
