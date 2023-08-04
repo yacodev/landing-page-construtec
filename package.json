@@ -1,7 +1,7 @@
 {
     "name": "construtec",
-    "version": "1.1.0",
-    "description": "landing page Construtec",
+    "version": "1.3.0",
+    "description": "Construtec landing page",
     "main": "index.js",
     "dependencies": {
         "axios": "^0.20.0",
@@ -10,6 +10,7 @@
         "nodemailer-sendgrid-transport": "^0.2.0",
         "react": "^17.0.2",
         "react-anchor-link-smooth-scroll": "^1.0.12",
+        "react-countdown": "^2.3.5",
         "react-dom": "^17.0.2",
         "react-hook-form": "^6.15.8",
         "react-modal-video": "^1.2.8",

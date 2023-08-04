@@ -70,12 +70,6 @@ const Footer = () => {
                           carlosyaco.com
                         </a>
                       </li>
-                      <li>
-                        <a href='https://www.cpip.com' target='_blank'>
-                          <i className='las la-angle-right'></i>
-                          cpip
-                        </a>
-                      </li>
                     </ul>
                   </div>
                 </div>
@@ -85,7 +79,7 @@ const Footer = () => {
             <div className='col-lg-3 col-sm-6 offset-sm-4 offset-lg-0'>
               <div className='footer-widget'>
                 <h3 className='title'>Contactanos</h3>
-                <p>932001032</p>
+                <p>(+51) 932001032</p>
                 <p>hola@construtecperu.com</p>
                 <ul className='footer-social'>
                   <li>
@@ -94,7 +88,7 @@ const Footer = () => {
                       href='https://www.facebook.com/ConstrutecPeru3'
                       target='_blank'
                     >
-                      <i className='lab la-facebook-f bg-3'></i>
+                      -<i className='lab la-facebook-f bg-3'></i>
                     </a>
                   </li>
 
@@ -104,7 +98,7 @@ const Footer = () => {
                       href='https://www.linkedin.com/company/constructec-perú'
                       target='_blank'
                     >
-                      <i className='lab la-linkedin-in bg-2'></i>
+                      -<i className='lab la-linkedin-in bg-2'></i>
                     </a>
                   </li>
                   <li>
@@ -113,7 +107,7 @@ const Footer = () => {
                       href='https://www.youtube.com/channel/UCuquY3djKK46Enk6MNKIulw'
                       target='_blank'
                     >
-                      <i className='lab la-youtube bg-1'></i>
+                      -<i className='lab la-youtube bg-1'></i>
                     </a>
                   </li>
                 </ul>
@@ -123,7 +117,7 @@ const Footer = () => {
 
           <div className='copyright-text'>
             <p>
-              Copyright &copy; {currentYear} Todos los derechos reservados{' '}
+              Copyright &copy; {currentYear} Todos los derechos reservados a{' '}
               <a href='https://hibootstrap.com/' target='_blank'>
                 Construtec
               </a>

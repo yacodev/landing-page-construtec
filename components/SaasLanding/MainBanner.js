@@ -6,18 +6,14 @@ const MainBanner = () => {
     <div id='home' className='saas-banner-area'>
       <div className='container'>
         <div className='saas-banner-content'>
-          <span>Ganador del Startup Peru 9G</span>
-          <h1>Elabora Tus informes mensuales de manera más eficiente </h1>
-          <p>Reduce el tiempo necesario hasta en un 50%.</p>
-          <p>Disminuye los errores hasta en 30%.</p>
-          <p>Toda tu información en un solo lugar.</p>
-
-          <div className='saas-banner-btn'>
+          <span>Ganador del Startup Perú 9G del 2023</span>
+          <h1>
+            Elabora tus informes mensuales de obra de manera más eficiente.
+          </h1>
+          <p>Gestiona tu almacén y realiza tus valorizaciones de obra.</p>
+          <div className='saas-banner-btn mt-4'>
             <Link href='#wait-list'>
-              <a className='default-btn bg-white mr-2'>Versión prueba</a>
-            </Link>
-            <Link href='#wait-list'>
-              <a className='default-btn bg-main'>Comenzar</a>
+              <a className='default-btn bg-white mr-2'>Quiero probarlo</a>
             </Link>
           </div>
         </div>
@@ -28,14 +24,9 @@ const MainBanner = () => {
             className='saas-img-1'
             alt='Image'
           />
-          {/* <img
-            src='/images/saas-img/saas-mobile.png'
-            className='saas-img-2'
-            alt='Image'
-          /> */}
         </div>
 
-        <div className='saas-shape-content'>
+        <div className='saas-shape-content mt-4'>
           <img
             src='/images/shape/shape1.png'
             className='saas-shape-1'
