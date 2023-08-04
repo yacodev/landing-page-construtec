@@ -43,7 +43,7 @@ const ReviewSlider = () => {
           >
             <div className='clients-slider-item'>
               <div className=''>
-                <div className='col-lg-6'>
+                <div className='col-lg-12'>
                   <div className='client-text'>
                     <div className='text'>
                       <i className='las la-quote-left text-icon-1'></i>
@@ -62,20 +62,15 @@ const ReviewSlider = () => {
                       <i className='las la-star'></i>
                     </div>
                     <h3>Heber Gutierrez</h3>
-                    <span>Gerente de Infraestructura</span>
+                    <p>Gerente de Infraestructura</p>
                   </div>
                 </div>
-                {/* <div className='col-lg-6'>
-                  <div className='client-image'>
-                    <img src='/images/saas-img/client1.jpg' alt='Image' />
-                  </div>
-                </div> */}
               </div>
             </div>
 
             <div className='clients-slider-item'>
               <div className='row align-items-center'>
-                <div className='col-lg-6'>
+                <div className='col-lg-12'>
                   <div className='client-text'>
                     <div className='text'>
                       <i className='las la-quote-left text-icon-1'></i>
@@ -94,20 +89,15 @@ const ReviewSlider = () => {
                       <i className='las la-star'></i>
                     </div>
                     <h3>Jojanes Bejar</h3>
-                    <span>Residente de Obra</span>
+                    <p>Residente de Obra</p>
                   </div>
                 </div>
-                {/* <div className='col-lg-6'>
-                  <div className='client-image'>
-                    <img src='/images/saas-img/client2.jpg' alt='Image' />
-                  </div>
-                </div> */}
               </div>
             </div>
 
             <div className='clients-slider-item'>
               <div className='row align-items-center'>
-                <div className='col-lg-6'>
+                <div className='col-lg-12'>
                   <div className='client-text'>
                     <div className='text'>
                       <i className='las la-quote-left text-icon-1'></i>
@@ -126,20 +116,15 @@ const ReviewSlider = () => {
                       <i className='las la-star'></i>
                     </div>
                     <h3>Cristhian Patiño </h3>
-                    <span>Residente de Obra</span>
+                    <p>Residente de Obra</p>
                   </div>
                 </div>
-                {/* <div className='col-lg-6'>
-                  <div className='client-image'>
-                    <img src='/images/saas-img/client3.jpg' alt='Image' />
-                  </div>
-                </div> */}
               </div>
             </div>
 
             <div className='clients-slider-item'>
               <div className='row align-items-center'>
-                <div className='col-lg-6'>
+                <div className='col-lg-12'>
                   <div className='client-text'>
                     <div className='text'>
                       <i className='las la-quote-left text-icon-1'></i>
@@ -157,29 +142,15 @@ const ReviewSlider = () => {
                       <i className='las la-star'></i>
                     </div>
                     <h3>Carlos Valeriano </h3>
-                    <span>Almacenero</span>
+                    <p>Almacenero</p>
                   </div>
                 </div>
-                {/* <div className='col-lg-6'>
-                  <div className='client-image'>
-                    <img src='/images/saas-img/client4.jpg' alt='Image' />
-                  </div>
-                </div> */}
               </div>
             </div>
           </OwlCarousel>
         ) : (
           ''
         )}
-
-        {/* <div className='claint-shape'>
-          <img src='/images/shape/shape9.png' className='shape-9' alt='Shape' />
-          <img
-            src='/images/shape/shape10.png'
-            className='shape-10'
-            alt='Shape'
-          />
-        </div> */}
       </div>
     </div>
   );

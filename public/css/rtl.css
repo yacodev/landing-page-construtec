@@ -368,15 +368,15 @@
   left: auto;
 }
 
-[dir="rtl"] .prising-card ul {
+[dir="rtl"] .pricing-card ul {
   margin: 35px 50px 0 0;
 }
 
-[dir="rtl"] .prising-card ul li {
+[dir="rtl"] .pricing-card ul li {
   padding-right: 30px;
 }
 
-[dir="rtl"] .prising-card ul li i {
+[dir="rtl"] .pricing-card ul li i {
   right: 0;
   left: auto;
 }
@@ -602,16 +602,16 @@
   [dir="rtl"] .saas-feature-two {
     padding-left: 0;
   }
-  [dir="rtl"] .prising-card ul {
+  [dir="rtl"] .pricing-card ul {
     margin: 25px 0px 0 0;
   }
 }
 
 @media only screen and (max-width: 575px) {
-  [dir="rtl"] .prising-card {
+  [dir="rtl"] .pricing-card {
     padding: 15px 0;
   }
-  [dir="rtl"] .prising-card ul {
+  [dir="rtl"] .pricing-card ul {
     margin: 35px 25px 0 0;
   }
   [dir="rtl"] .saas-downloand-area .download-image .mobile-2 {
@@ -676,7 +676,7 @@
   [dir="rtl"] .choose-us-area .chooses-img-contant .choose-us-img .choose-img {
     right: -40px;
   }
-  [dir="rtl"] .prising-card ul {
+  [dir="rtl"] .pricing-card ul {
     margin: 35px 30px 0 0;
   }
 }

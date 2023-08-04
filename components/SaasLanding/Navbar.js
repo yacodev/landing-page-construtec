@@ -153,10 +153,10 @@ class Navbar extends Component {
 
               <div className='nav-btn '>
                 <Link href='#wait-list'>
-                  <a className='default-btn bg-main mr-2'>Ingresar</a>
+                  <a className='default-btn bg-red'>Ingresar</a>
                 </Link>
                 <Link href='#wait-list'>
-                  <a className='default-btn bg-color'>Registrarse</a>
+                  <a className='default-btn bg-red'>Registrarse</a>
                 </Link>
               </div>
             </div>

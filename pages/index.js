@@ -12,7 +12,7 @@ import Partner from '../components/SaasLanding/Partner';
 import Contact from '../components/SaasLanding/Contact';
 import Subscribe from '../components/SaasLanding/Subscribe';
 import Footer from '../components/SaasLanding/Footer';
-import WaitList from '../components/SaasLanding/WaitList';
+import RegistrationCampaign from '../components/SaasLanding/RegistrationCampaign';
 
 const SaasLanding = () => {
   return (
@@ -23,7 +23,7 @@ const SaasLanding = () => {
       <Features />
       <SaaSAppFeatures />
       <AppDownload />
-      <WaitList />
+      <RegistrationCampaign />
       <Pricing />
       {/* <PopupVideoArea /> */}
       <ReviewSlider />

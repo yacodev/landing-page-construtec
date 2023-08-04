@@ -54,7 +54,7 @@ export default class Pricing extends Component {
               <div id='MonthlyPlan' className='tabs-item'>
                 <div className='row'>
                   <div className='col-lg-4 col-md-6 col-sm-6'>
-                    <div className='prising-card pric-tabe'>
+                    <div className='pricing-card pric-tabe'>
                       <div className='price-header text-center'>
                         <h3>Módulo almacen</h3>
                         <h4>S/.40</h4>
@@ -91,14 +91,14 @@ export default class Pricing extends Component {
 
                       <div className='price-btn text-center'>
                         <Link href='#wait-list'>
-                          <a className='default-btn bg-color'>Suscribirse</a>
+                          <a className='default-btn bg-color'>Suscribirsse</a>
                         </Link>
                       </div>
                     </div>
                   </div>
 
                   <div className='col-lg-4 col-md-6 col-sm-6'>
-                    <div className='prising-card pric-tabe'>
+                    <div className='pricing-card pric-tabe'>
                       <div className='price-header text-center'>
                         <h3>Módulo valorizaciones</h3>
                         <h4>S/.40</h4>
@@ -142,7 +142,7 @@ export default class Pricing extends Component {
                   </div>
 
                   <div className='col-lg-4 col-md-6 col-sm-6 offset-sm-3 offset-lg-0'>
-                    <div className='prising-card pric-tabe'>
+                    <div className='pricing-card pric-tabe'>
                       <div className='price-header text-center'>
                         <h3>Premium</h3>
                         <h4>S/. 60</h4>
@@ -189,7 +189,7 @@ export default class Pricing extends Component {
               <div id='YearlyPlan' className='tabs-item'>
                 <div className='row'>
                   <div className='col-lg-4 col-md-6 col-sm-6'>
-                    <div className='prising-card pric-tabe'>
+                    <div className='pricing-card pric-tabe'>
                       <div className='price-header text-center'>
                         <h3>Módulo almacen</h3>
                         <h4>S/. 25/mes</h4>
@@ -232,7 +232,7 @@ export default class Pricing extends Component {
                     </div>
                   </div>
                   <div className='col-lg-4 col-md-6 col-sm-6'>
-                    <div className='prising-card pric-tabe'>
+                    <div className='pricing-card pric-tabe'>
                       <div className='price-header text-center'>
                         <h3>Módulo valorizaciones</h3>
                         <h4>S/. 25/mes</h4>
@@ -276,7 +276,7 @@ export default class Pricing extends Component {
                   </div>
 
                   <div className='col-lg-4 col-md-6 col-sm-6'>
-                    <div className='prising-card pric-tabe'>
+                    <div className='pricing-card pric-tabe'>
                       <div className='price-header text-center'>
                         <h3>Premium</h3>
                         <h4>S/. 35/mes</h4>

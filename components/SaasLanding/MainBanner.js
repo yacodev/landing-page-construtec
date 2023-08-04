@@ -6,17 +6,14 @@ const MainBanner = () => {
     <div id='home' className='saas-banner-area'>
       <div className='container'>
         <div className='saas-banner-content'>
-          <span>Ganador del Startup Perú 9G</span>
+          <span>Ganador del Startup Perú 9G del 2023</span>
           <h1>
             Elabora tus informes mensuales de obra de manera más eficiente.
           </h1>
-
+          <p>Gestiona tu almacén y realiza tus valorizaciones de obra.</p>
           <div className='saas-banner-btn mt-4'>
             <Link href='#wait-list'>
-              <a className='default-btn bg-white mr-2'>Versión prueba</a>
-            </Link>
-            <Link href='#wait-list'>
-              <a className='default-btn bg-red'>Quiero probarlo</a>
+              <a className='default-btn bg-white mr-2'>Quiero probarlo</a>
             </Link>
           </div>
         </div>
