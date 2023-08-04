@@ -11,7 +11,6 @@ const SaaSAppFeatures = () => {
         <div className='row'>
           <div className='col-lg-6'>
             <div className='saas-feature-two'>
-              {/* <i className='lab la-buffer bg-1'></i> */}
               <i className='la-box bg-1'></i>
               <h3> Módulo Almacen</h3>
               <p>
