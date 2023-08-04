@@ -6,7 +6,7 @@ const MainBanner = () => {
     <div id='home' className='saas-banner-area'>
       <div className='container'>
         <div className='saas-banner-content'>
-          <span>Ganador del Startup Peru 9G</span>
+          <span>Ganador del Startup Perú 9G</span>
           <h1>
             Elabora tus informes mensuales de obra de manera más eficiente.
           </h1>
@@ -16,7 +16,7 @@ const MainBanner = () => {
               <a className='default-btn bg-white mr-2'>Versión prueba</a>
             </Link>
             <Link href='#wait-list'>
-              <a className='default-btn bg-main'>Comenzar</a>
+              <a className='default-btn bg-red'>Quiero probarlo</a>
             </Link>
           </div>
         </div>

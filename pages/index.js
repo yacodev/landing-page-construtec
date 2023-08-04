@@ -21,13 +21,13 @@ const SaasLanding = () => {
       <MainBanner />
       <Services />
       <Features />
-      <Pricing />
       <SaaSAppFeatures />
       <AppDownload />
-      <PopupVideoArea />
-      <ReviewSlider />
       <WaitList />
-      {/* <Partner /> */}
+      <Pricing />
+      {/* <PopupVideoArea /> */}
+      <ReviewSlider />
+      <Partner />
       <Contact />
       <Footer />
     </>
