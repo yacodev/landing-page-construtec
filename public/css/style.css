@@ -1016,6 +1016,7 @@ Saas Landing CSS
   color: #ccd8fc;
   left: -30px;
   top: -15px;
+  margin-top:10px
 }
 
 .clients-area .clients-slider .clients-slider-item .client-text .text .text-icon-2 {
@@ -1129,6 +1130,8 @@ Saas Landing CSS
 .partner-area .partner-slider-item img {
   width: auto;
   margin: auto;
+  padding-left:20px;
+  padding-right:20px;
 }
 
 /* Subscribe Area CSS */
