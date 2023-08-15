@@ -1,28 +1,29 @@
 import React from 'react';
-import dynamic from 'next/dynamic';
-const OwlCarousel = dynamic(import('react-owl-carousel3'));
+import Slider from 'react-slick';
 
-const options = {
-  loop: true,
-  dots: false,
-  margin: 40,
-  nav: false,
+const settings = {
+  dots: true,
+  infinite: true,
+  slidesToShow: 4,
+  slidesToScroll: 1,
   autoplay: true,
-  autoplayHoverPause: true,
-  responsive: {
-    0: {
-      items: 2,
+  autoplaySpeed: 3000,
+  responsive: [
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2,
+      },
     },
-    576: {
-      items: 3,
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+      },
     },
-    768: {
-      items: 4,
-    },
-    1200: {
-      items: 5,
-    },
-  },
+  ],
 };
 
 const Partner = () => {
@@ -45,9 +46,9 @@ const Partner = () => {
         </div>
 
         {display ? (
-          <OwlCarousel
+          <Slider
             className='partner-slider owl-carousel owl-theme'
-            {...options}
+            {...settings}
           >
             <div className='partner-slider-item'>
               <a href='#' target='_blank'>
@@ -78,7 +79,7 @@ const Partner = () => {
                 <img src='/images/partner/partner_s360.png' alt='logo' />
               </a>
             </div>
-          </OwlCarousel>
+          </Slider>
         ) : (
           ''
         )}

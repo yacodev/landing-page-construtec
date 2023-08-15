@@ -1,20 +1,5 @@
 import React from 'react';
-import dynamic from 'next/dynamic';
-const OwlCarousel = dynamic(import('react-owl-carousel3'));
-
-const options = {
-  items: 1,
-  loop: true,
-  margin: 0,
-  nav: true,
-  autoplay: true,
-  autoplayHoverPause: true,
-  dots: false,
-  navText: [
-    "<i class='las la-long-arrow-alt-left'></i>",
-    "<i class='las la-long-arrow-alt-right'></i>",
-  ],
-};
+import Slider from 'react-slick';
 
 const ReviewSlider = () => {
   const [display, setDisplay] = React.useState(false);
@@ -22,6 +7,15 @@ const ReviewSlider = () => {
   React.useEffect(() => {
     setDisplay(true);
   }, []);
+
+  const settings = {
+    dots: true,
+    infinite: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 3000,
+  };
 
   return (
     <div className='clients-area ptb-100'>
@@ -34,12 +28,22 @@ const ReviewSlider = () => {
           </p>
         </div>
       </div>
-
+      <link
+        rel='stylesheet'
+        type='text/css'
+        charset='UTF-8'
+        href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css'
+      />
+      <link
+        rel='stylesheet'
+        type='text/css'
+        href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css'
+      />
       <div className='container'>
         {display ? (
-          <OwlCarousel
+          <Slider
             className='clients-slider owl-carousel owl-theme'
-            {...options}
+            {...settings}
           >
             <div className='clients-slider-item'>
               <div className=''>
@@ -147,7 +151,7 @@ const ReviewSlider = () => {
                 </div>
               </div>
             </div>
-          </OwlCarousel>
+          </Slider>
         ) : (
           ''
         )}
