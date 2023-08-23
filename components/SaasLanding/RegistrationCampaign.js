@@ -1,6 +1,7 @@
 import React from 'react';
 import Countdown from 'react-countdown';
 import Link from 'next/link';
+import config from '../../pages/config';
 
 const RegistrationCampaign = () => {
   const CompletionCount = () => <span>Promoción finalizada</span>;
@@ -30,13 +31,15 @@ const RegistrationCampaign = () => {
               <p>
                 Al registrate en la plataforma podrás acceder de manera gratuita
                 al módulo de almacen por un periodo de prueba por 30 días sin
-                costo alguno. Esta promoción solo es valida hasta el 31 de
-                Agosto del 2023.
+                costo alguno. Esta promoción solo es valida hasta el 10 de
+                Setiembre del 2023.
               </p>
             </div>
             <div className='saas-registration-btn mt-4'>
-              <Link href='#'>
-                <a className='default-btn bg-red'>Registrarse</a>
+              <Link href={config.REGISTER_PLATFORM_URL}>
+                <a className='default-btn bg-red' target='_blank'>
+                  Registrarse
+                </a>
               </Link>
             </div>
             <div className='description_campaign mt-4'>
@@ -46,7 +49,7 @@ const RegistrationCampaign = () => {
               </p>
             </div>
             <div className='count-down'>
-              {<Countdown date={new Date(2023, 7, 31)} renderer={renderer} />}
+              {<Countdown date={new Date(2023, 8, 10)} renderer={renderer} />}
             </div>
           </div>
         </div>

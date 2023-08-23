@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Link from 'next/link';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
+import config from '../../pages/config';
 
 class Navbar extends Component {
   state = {
@@ -152,11 +153,15 @@ class Navbar extends Component {
               </ul>
 
               <div className='nav-btn '>
-                <Link href='#wait-list'>
-                  <a className='default-btn bg-red'>Ingresar</a>
+                <Link href={config.LOGIN_PLATFORM_URL}>
+                  <a className='default-btn bg-red' target='_blank'>
+                    Ingresar
+                  </a>
                 </Link>
-                <Link href='#wait-list'>
-                  <a className='default-btn bg-red'>Registrarse</a>
+                <Link href={config.REGISTER_PLATFORM_URL}>
+                  <a className='default-btn bg-red' target='_blank'>
+                    Registrarse
+                  </a>
                 </Link>
               </div>
             </div>
