@@ -1,7 +1,7 @@
 import React from 'react';
 import Countdown from 'react-countdown';
 import Link from 'next/link';
-import config from '../../pages/config';
+import config from '../../utils/config';
 
 const RegistrationCampaign = () => {
   const CompletionCount = () => <span>Promoción finalizada</span>;

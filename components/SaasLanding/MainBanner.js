@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import config from '../../pages/config';
+import config from '../../utils/config';
 
 const MainBanner = () => {
   return (
