@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Link from 'next/link';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
-import config from '../../pages/config';
+import config from '../../utils/config';
 
 class Navbar extends Component {
   state = {

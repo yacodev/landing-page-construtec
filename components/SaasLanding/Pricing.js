@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import React, { Component } from 'react';
-import config from '../../pages/config';
+import config from '../../utils/config';
 
 export default class Pricing extends Component {
   // Tab
