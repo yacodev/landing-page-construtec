@@ -1,19 +1,23 @@
 import React from 'react';
 import Link from 'next/link';
+import config from '../../pages/config';
 
 const MainBanner = () => {
   return (
     <div id='home' className='saas-banner-area'>
       <div className='container'>
         <div className='saas-banner-content'>
-          <span>Ganador del Startup Perú 9G del 2023</span>
-          <h1>
-            Elabora tus informes mensuales de obra de manera más eficiente.
-          </h1>
-          <p>Gestiona tu almacén y realiza tus valorizaciones de obra.</p>
+          <h4>Ganador del Startup Perú 9G - 2023</h4>
+          <p>Con nuestra plataforma</p>
+          <h2>
+            Gestiona tu almacén y realiza tus valorizaciones de obra de manera
+            más eficiente.
+          </h2>
           <div className='saas-banner-btn mt-4'>
-            <Link href='#wait-list'>
-              <a className='default-btn bg-white mr-2'>Quiero probarlo</a>
+            <Link href={config.REGISTER_PLATFORM_URL}>
+              <a className='default-btn bg-white mr-2' target='_blank'>
+                Quiero probarlo
+              </a>
             </Link>
           </div>
         </div>

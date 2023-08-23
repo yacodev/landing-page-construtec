@@ -61,7 +61,12 @@ const Partner = () => {
 
             <div className='partner-slider-item'>
               <a href='#' target='_blank'>
-                <img src='/images/partner/partner_proinnovate.png' alt='logo' />
+                <img
+                  src='/images/partner/partner_proinnovate.png'
+                  width='168px'
+                  height='70px'
+                  alt='logo'
+                />
               </a>
             </div>
 
@@ -70,6 +75,7 @@ const Partner = () => {
                 <img
                   src='/images/partner/partner_startup_peru.png'
                   alt='logo'
+                  height='60px'
                 />
               </a>
             </div>

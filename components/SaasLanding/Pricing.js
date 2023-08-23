@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import React, { Component } from 'react';
+import config from '../../pages/config';
 
 export default class Pricing extends Component {
   // Tab
@@ -90,8 +91,10 @@ export default class Pricing extends Component {
                       </ul>
 
                       <div className='price-btn text-center'>
-                        <Link href='#wait-list'>
-                          <a className='default-btn bg-color'>Suscribirsse</a>
+                        <Link href={config.REGISTER_PLATFORM_URL}>
+                          <a className='default-btn bg-color' target='_blank'>
+                            Suscribirsse
+                          </a>
                         </Link>
                       </div>
                     </div>
@@ -134,8 +137,10 @@ export default class Pricing extends Component {
                       </ul>
 
                       <div className='price-btn text-center'>
-                        <Link href='#wait-list'>
-                          <a className='default-btn bg-color'>Suscribirse</a>
+                        <Link href={config.REGISTER_PLATFORM_URL}>
+                          <a className='default-btn bg-color' target='_blank'>
+                            Suscribirse
+                          </a>
                         </Link>
                       </div>
                     </div>
@@ -177,8 +182,10 @@ export default class Pricing extends Component {
                       </ul>
 
                       <div className='price-btn text-center'>
-                        <Link href='#wait-list'>
-                          <a className='default-btn bg-color'>Suscribirse</a>
+                        <Link href={config.REGISTER_PLATFORM_URL}>
+                          <a className='default-btn bg-color' target='_blank'>
+                            Suscribirse
+                          </a>
                         </Link>
                       </div>
                     </div>
@@ -225,8 +232,10 @@ export default class Pricing extends Component {
                       </ul>
 
                       <div className='price-btn text-center'>
-                        <Link href='#wait-list'>
-                          <a className='default-btn bg-color'>Suscribirse</a>
+                        <Link href={config.REGISTER_PLATFORM_URL}>
+                          <a className='default-btn bg-color' target='_blank'>
+                            Suscribirse
+                          </a>
                         </Link>
                       </div>
                     </div>
@@ -268,8 +277,10 @@ export default class Pricing extends Component {
                       </ul>
 
                       <div className='price-btn text-center'>
-                        <Link href='#wait-list'>
-                          <a className='default-btn bg-color'>Suscribirse</a>
+                        <Link href={config.REGISTER_PLATFORM_URL}>
+                          <a className='default-btn bg-color' target='_blank'>
+                            Suscribirse
+                          </a>
                         </Link>
                       </div>
                     </div>
@@ -311,8 +322,10 @@ export default class Pricing extends Component {
                       </ul>
 
                       <div className='price-btn text-center'>
-                        <Link href='#wait-list'>
-                          <a className='default-btn bg-color'>Suscribirse</a>
+                        <Link href={config.REGISTER_PLATFORM_URL}>
+                          <a className='default-btn bg-color' target='_blank'>
+                            Suscribirse
+                          </a>
                         </Link>
                       </div>
                     </div>
