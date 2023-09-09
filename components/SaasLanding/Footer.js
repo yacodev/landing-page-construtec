@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import config from '../../utils/config';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -33,28 +34,24 @@ const Footer = () => {
                     <h3 className='title'>Construtec</h3>
                     <ul className='footer-text'>
                       <li>
-                        <a href='#'>
+                        <a href={config.REGISTER_PLATFORM_URL} target='_blank'>
                           <i className='las la-angle-right'></i>
                           Registrate
                         </a>
                       </li>
                       <li>
-                        <a href='#'>
+                        <a href={config.LOGIN_PLATFORM_URL} target='_blank'>
                           <i className='las la-angle-right'></i>
                           Ingresar
                         </a>
                       </li>
                       <li>
-                        <a href='#'>
-                          <i className='las la-angle-right'></i>
-                          Terminos y condiciones
-                        </a>
-                      </li>
-                      <li>
-                        <a href='#'>
-                          <i className='las la-angle-right'></i>
-                          Acerca de nosotros
-                        </a>
+                        <Link href='./terms'>
+                          <a>
+                            <i className='las la-angle-right'></i>
+                            Terminos y condiciones
+                          </a>
+                        </Link>
                       </li>
                     </ul>
                   </div>

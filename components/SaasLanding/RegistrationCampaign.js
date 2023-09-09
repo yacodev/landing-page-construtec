@@ -31,7 +31,7 @@ const RegistrationCampaign = () => {
               <p>
                 Al registrate en la plataforma podrás acceder de manera gratuita
                 al módulo de almacen por un periodo de prueba por 30 días sin
-                costo alguno. Esta promoción solo es valida hasta el 10 de
+                costo alguno. Esta promoción solo es valida hasta el 30 de
                 Setiembre del 2023.
               </p>
             </div>
@@ -49,7 +49,7 @@ const RegistrationCampaign = () => {
               </p>
             </div>
             <div className='count-down'>
-              {<Countdown date={new Date(2023, 8, 10)} renderer={renderer} />}
+              {<Countdown date={new Date(2023, 8, 30)} renderer={renderer} />}
             </div>
           </div>
         </div>

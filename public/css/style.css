@@ -155,6 +155,17 @@ Saas Landing CSS
   transition: all 0.5s;
 }
 
+.container-reduced-navbar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+.reduced-navbar-end-button{
+  display: flex;
+  justify-content: end;
+  margin-right: 50px;
+}
 .main-navbar.is-sticky {
   -webkit-box-shadow: 0px 2px 25px #ddd;
           box-shadow: 0px 2px 25px #ddd;
@@ -1133,6 +1144,30 @@ Saas Landing CSS
   margin: auto;
   padding-left:20px;
   padding-right:20px;
+}
+
+/* Term and conditions Area */
+.term-conditions {
+  background-color: #fdfdfd;
+}
+
+.term-conditions-container {
+  margin-top: 70px;
+}
+
+.term-conditions-container .title {
+  
+  text-align: center; 
+}
+.term-conditions-container .section {
+  margin-top:10px;
+  text-align: start;
+  padding-left:40px;
+  padding-right:40px;
+}
+
+.term-conditions-container .section h6 {
+  margin-top:25px;
 }
 
 /* Subscribe Area CSS */
