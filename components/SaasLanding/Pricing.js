@@ -86,7 +86,7 @@ export default class Pricing extends Component {
                         </li>
                         <li className='not-provide'>
                           <i className='las la-times'></i>
-                          No puedes acceder al módulo valorizaciones,
+                          No puedes acceder al módulo valorizaciones.
                         </li>
                       </ul>
 
@@ -132,7 +132,7 @@ export default class Pricing extends Component {
                         </li>
                         <li className='not-provide'>
                           <i className='las la-times'></i>
-                          No puedes acceder al módulo almacen,
+                          No puedes acceder al módulo almacen.
                         </li>
                       </ul>
 
@@ -206,7 +206,7 @@ export default class Pricing extends Component {
                       <ul>
                         <li>
                           <i className='las la-check'></i>
-                          Valido mientras dure la suscripción
+                          Valido por un año.
                         </li>
                         <li>
                           <i className='las la-check'></i>
@@ -219,15 +219,15 @@ export default class Pricing extends Component {
 
                         <li>
                           <i className='las la-check'></i>
-                          Sin limites en los resportes generados
+                          Sin limites en los resportes generados.
                         </li>
                         <li>
                           <i className='las la-check'></i>
-                          Asistencia técnica 24/7
+                          Asistencia técnica 24/7.
                         </li>
                         <li className='not-provide'>
                           <i className='las la-times'></i>
-                          No puedes acceder al módulo valorizaciones
+                          No puedes acceder al módulo valorizaciones.
                         </li>
                       </ul>
 
@@ -251,7 +251,7 @@ export default class Pricing extends Component {
                       <ul>
                         <li>
                           <i className='las la-check'></i>
-                          Valido mientras dure la suscripción
+                          Valido por un año.
                         </li>
                         <li>
                           <i className='las la-check'></i>
@@ -264,15 +264,15 @@ export default class Pricing extends Component {
 
                         <li>
                           <i className='las la-check'></i>
-                          Sin limites en los resportes generados
+                          Sin limites en los resportes generados.
                         </li>
                         <li>
                           <i className='las la-check'></i>
-                          Asistencia técnica 24/7
+                          Asistencia técnica 24/7.
                         </li>
                         <li className='not-provide'>
                           <i className='las la-times'></i>
-                          No puedes acceder al módulo almacen
+                          No puedes acceder al módulo almacen.
                         </li>
                       </ul>
 
