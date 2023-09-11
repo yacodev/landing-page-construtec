@@ -62,7 +62,7 @@ const Footer = () => {
                     <h3 className='title'>Enlaces</h3>
                     <ul className='footer-text'>
                       <li>
-                        <a href='https://www.carlosyaco.com' target='_blank'>
+                        <a href='https://carlosyaco.com' target='_blank'>
                           <i className='las la-angle-right'></i>
                           carlosyaco.com
                         </a>
