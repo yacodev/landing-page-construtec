@@ -8,28 +8,34 @@ const Features = () => {
           <div className='row'>
             <div className='features-card-content'>
               <h2 className='title'>¿A quién está dirigido?</h2>
+
               <div className='saas-features '>
                 <div className='icon bg-1'>
+                  <i className='las la-file-alt'></i>
+                </div>
+                <h3>Empresas constructoras </h3>
+                <p>
+                  Constructoras que contratán con el estado la ejecución de
+                  obras públicas, mediante la plataforma podrán
+                  <strong>gestion todos sus proyectos</strong>, conocer el
+                  estado actual de cada proyecto (valorización), asi como el
+                  estado de sus almacenes de obra.
+                </p>
+              </div>
+
+              <div className='saas-features '>
+                <div className='icon bg-2'>
                   <i className='las la-pencil-alt'></i>
                 </div>
                 <h3>Ingenieros Residente de Obra</h3>
                 <p>
-                  Podrás realizar el <strong>control del avance de obra</strong>
-                  , las valorizaciones de las partidas ejecutadas y el control
-                  de tu almacen de obra.
-                </p>
-              </div>
-
-              <div className='saas-features'>
-                <div className='icon bg-2'>
-                  <i className='las la-file-alt'></i>
-                </div>
-                <h3>Ingenieros Asistentes Técnicos</h3>
-                <p>
-                  Podrás ingresar los metrados diarios y generar la
-                  correspondiente <strong> valorización de obra </strong>,
-                  tambien podrás generar los mayores metrados y las partidas
-                  nuevas con sus correspondientes valorizaciones.
+                  Que trabajen en constructoras o instituciones publicas:
+                  Municipalidades, Gobiernos regionales y Ministerios, podrán
+                  realizar sus{' '}
+                  <strong>
+                    valorizaciones de obra ejecutadas tanto por administración
+                    directa e indirecta.
+                  </strong>
                 </p>
               </div>
 
@@ -39,7 +45,8 @@ const Features = () => {
                 </div>
                 <h3>Almaceneros</h3>
                 <p>
-                  Podrás dar ingreso y salida a todos los materiales,{' '}
+                  Que trabajen en constructoras o instituciones publicas, podrán
+                  realizar el control de su almacén
                   <strong>
                     generar tus notas de entrada/salida, tu bincard digital y la
                     valorización de tu almacen.
