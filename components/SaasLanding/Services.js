@@ -6,16 +6,15 @@ const Services = () => {
       <div className='container mt-4'>
         <div className='section-title'>
           {/* <span>Our Services</span> */}
-          <h2>Contamos con una plataforma para el control de obras públicas</h2>
+          <h2>Descubre todas las ventajas de nuestra plataforma Web.</h2>
           <p>
-            Descubre todas las ventajas de nuestra plataforma,{' '}
+            Gracias a sus distintas funcionalidades: presupuesto, metrados,
+            valorizaciones, reajustes, formula polinomica, almacén y reportes,
             <strong>
-              para elaborar informes mensuales y realizar el control de la
-              ejecución de obras públicas.
+              {' '}
+              podrás elaborar tus valorizaciones de obra y gestionar tu almacen
+              de obra de manera más eficiente y organizada
             </strong>{' '}
-            Gracias a sus distinto módulos (metrados, valorizaciones, almacén y
-            financiero) podrás elaborar tus informes mensuales con un solo click
-            de manera más eficiente y organizada.
           </p>
         </div>
         <div className='section-title'>
@@ -29,8 +28,8 @@ const Services = () => {
               </div>
               <h3>Optimización</h3>
               <p>
-                Reduce el tiempo necesario para que elabores tu informe mensual{' '}
-                <strong>hasta en un 50%.</strong>
+                Reduce el tiempo necesario para que elaborar tus valorizaciones
+                de obra <strong>hasta en un 50%.</strong>
               </p>
             </div>
           </div>
@@ -42,7 +41,8 @@ const Services = () => {
               </div>
               <h3>Seguridad</h3>
               <p>
-                Disminuye la cantidad de errores de los informes mensuales{' '}
+                Disminuye la cantidad de errores de la valorización de obra y
+                gestion de almacén
                 <strong> hasta en un 30%</strong>, gracias al sistema de control
                 de errores.
               </p>
@@ -56,8 +56,9 @@ const Services = () => {
               </div>
               <h3>Organización</h3>
               <p>
-                En un solo lugar tienes todos los informes mensuales organizados
-                y entrelazados, olvidate de tener un excel por cada mes.
+                En un solo lugar tienes todos las valorizaciones de obra y
+                almacen organizados y entrelazados, olvidate de tener un excel
+                por cada mes.
               </p>
             </div>
           </div>

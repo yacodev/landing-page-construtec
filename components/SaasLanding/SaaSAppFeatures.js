@@ -30,11 +30,12 @@ const SaaSAppFeatures = () => {
               <h3>Módulo Valorizaciones</h3>
               <p>
                 Podrás ingresar diariamente los metrados ejecutados de cada
-                partida. El software generará automáticamente la valorización
-                programada, la de mayores mayores metrados, la valorización de
-                partidas nuevas y deductivos según corresponda. Podrás generar
-                la valorización para una obra por administración directa o por
-                contrata.
+                partida. El software generará automáticamente la valorización de
+                obra, la de mayores mayores metrados, la valorización de
+                partidas nuevas y deductivos según corresponda. Aplica formula
+                polinomica , configurar las amortizaciones y reajustes de
+                valorización correspondientes. Esta orientado tanto para obra
+                por administración directa o por contrata.
               </p>
             </div>
           </div>
