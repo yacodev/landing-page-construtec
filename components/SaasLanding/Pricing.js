@@ -51,7 +51,7 @@ const plansEnterprise = {
   },
   premiumPlan: {
     title: 'Premium - Constructoras',
-    price: 'S/. 400',
+    price: 'S/. 500',
     description: 'Puedes tener hasta cinco (5) proyectos activos.',
   },
   warehouseAnnualPlan: {
@@ -68,15 +68,88 @@ const plansEnterprise = {
   },
   premiumAnnualPlan: {
     title: 'Premium - Constructoras',
-    monthlyPrice: 'S/. 333/mes',
-    annualPrice: 'S/. 4000 / año',
+    monthlyPrice: 'S/. 416/mes',
+    annualPrice: 'S/. 5000 / año',
     description: 'Puedes tener hasta cinco (5) proyectos activos.',
+  },
+};
+
+const plansEnterpriseTenProjects = {
+  warehousePlan: {
+    title: 'Módulo Almacen - Constructoras',
+    price: 'S/. 500',
+    description: 'Puedes tener hasta diez (10) proyectos activos.',
+  },
+  valorizationPlan: {
+    title: 'Valorizaciones - Constructoras',
+    price: 'S/. 500',
+    description: 'Puedes tener hasta diez (10) proyectos activos.',
+  },
+  premiumPlan: {
+    title: 'Premium - Constructoras',
+    price: 'S/. 700',
+    description: 'Puedes tener hasta diez (10) proyectos activos.',
+  },
+  warehouseAnnualPlan: {
+    title: 'Módulo Almacen - Constructoras',
+    monthlyPrice: 'S/. 400/mes',
+    annualPrice: 'S/. 4800 / año',
+    description: 'Puedes tener hasta diez (10) proyectos activos.',
+  },
+  valorizationAnnualPlan: {
+    title: 'Valorizaciones - Constructoras',
+    monthlyPrice: 'S/. 400/mes',
+    annualPrice: 'S/. 4800 / año',
+    description: 'Puedes tener hasta diez (10) proyectos activos.',
+  },
+  premiumAnnualPlan: {
+    title: 'Premium - Constructoras',
+    monthlyPrice: 'S/. 550/mes',
+    annualPrice: 'S/. 6600 / año',
+    description: 'Puedes tener hasta diez (10) proyectos activos.',
+  },
+};
+
+const plansEnterpriseFifteenProjects = {
+  warehousePlan: {
+    title: 'Módulo Almacen - Constructoras',
+    price: 'S/. 700',
+    description: 'Puedes tener hasta diez (15) proyectos activos.',
+  },
+  valorizationPlan: {
+    title: 'Valorizaciones - Constructoras',
+    price: 'S/. 700',
+    description: 'Puedes tener hasta quince (15) proyectos activos.',
+  },
+  premiumPlan: {
+    title: 'Premium - Constructoras',
+    price: 'S/. 900',
+    description: 'Puedes tener hasta quince (15) proyectos activos.',
+  },
+  warehouseAnnualPlan: {
+    title: 'Módulo Almacen - Constructoras',
+    monthlyPrice: 'S/. 550/mes',
+    annualPrice: 'S/. 6600 / año',
+    description: 'Puedes tener hasta quince (15) proyectos activos.',
+  },
+  valorizationAnnualPlan: {
+    title: 'Valorizaciones - Constructoras',
+    monthlyPrice: 'S/. 550/mes',
+    annualPrice: 'S/. 6600 / año',
+    description: 'Puedes tener hasta quince (15) proyectos activos.',
+  },
+  premiumAnnualPlan: {
+    title: 'Premium - Constructoras',
+    monthlyPrice: 'S/. 750/mes',
+    annualPrice: 'S/. 9000 / año',
+    description: 'Puedes tener hasta quince (15) proyectos activos.',
   },
 };
 export default class Pricing extends Component {
   // Tab
   state = {
     showBusinessPlan: false,
+    numberOfProjects: 5,
     ...plansUsers,
   };
 
@@ -113,6 +186,29 @@ export default class Pricing extends Component {
     this.setState({ showBusinessPlan: !this.state.showBusinessPlan });
   };
 
+  handleRange = (e) => {
+    const numberOfProjects = e.target.value;
+    console.log('evento', numberOfProjects);
+    switch (numberOfProjects) {
+      case '5':
+        this.setState({ ...plansEnterprise });
+    }
+    switch (numberOfProjects) {
+      case '15':
+        this.setState({ ...plansEnterpriseFifteenProjects });
+    }
+    switch (numberOfProjects) {
+      case '10':
+        this.setState({ ...plansEnterpriseTenProjects });
+    }
+    switch (numberOfProjects) {
+      case '15':
+        this.setState({ ...plansEnterpriseFifteenProjects });
+    }
+
+    this.setState({ numberOfProjects: e.target.value });
+  };
+
   render() {
     return (
       <div id='pricing' className='our-pricing-area bg-f8feff pt-100 pb-70'>
@@ -146,6 +242,25 @@ export default class Pricing extends Component {
                 <strong>Constructoras</strong>
               </span>
             </div>
+            {this.state.showBusinessPlan && (
+              <div className='container-select-number-projects'>
+                <p>Elige el número de proyetos:</p>
+                <input
+                  type='range'
+                  id='rangeInput'
+                  min='5'
+                  max='15'
+                  step='5'
+                  value={this.state.numberOfProjects}
+                  onChange={(e) => this.handleRange(e)}
+                />
+                <div className='container-number-projects'>
+                  <p id='selectedValue'>5</p>
+                  <p id='selectedValue'>10</p>
+                  <p id='selectedValue'>15</p>
+                </div>
+              </div>
+            )}
             <ul className='tabs'>
               <li
                 className='current'
