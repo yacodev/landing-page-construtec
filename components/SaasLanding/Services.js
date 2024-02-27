@@ -6,19 +6,24 @@ const Services = () => {
       <div className='container mt-4'>
         <div className='section-title'>
           {/* <span>Our Services</span> */}
-          <h2>Descubre todas las ventajas de nuestra plataforma Web.</h2>
+          <h2>¿Qué es Construtec?</h2>
+          {/* <h2>Descubre todas las ventajas de nuestra plataforma Web.</h2> */}
           <p>
+            Un software creado para gestionar los{' '}
+            <strong>
+              almacenes de obra y realizar las valorizaciones de obra.{' '}
+            </strong>{' '}
             Gracias a sus distintas funcionalidades: presupuesto, metrados,
             valorizaciones, reajustes, formula polinomica, almacén y reportes,
             <strong>
               {' '}
               podrás elaborar tus valorizaciones de obra y gestionar tu almacen
-              de obra de manera más eficiente y organizada
+              de obra de manera más eficiente y organizada.
             </strong>{' '}
           </p>
         </div>
         <div className='section-title'>
-          <h2> Beneficios de utilizar nuestra plataforma </h2>
+          <h2> Beneficios: </h2>
         </div>
         <div className='row'>
           <div className='col-lg-4 col-sm-6'>

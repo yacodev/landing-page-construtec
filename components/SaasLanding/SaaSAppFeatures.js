@@ -18,8 +18,11 @@ const SaaSAppFeatures = () => {
                 la obra, configurar tu almacén como nuevo o importar un almacén
                 ya existente, ver el inventario de los materiales, clasificarlos
                 por tipo y visualizar los correspondientes vincard de cada
-                material. El software generará la valorización de almacén, los
-                movimientos diarios, y las notas de entrada/salida.
+                material.{' '}
+                <strong>
+                  El software Construtec generará la valorización de almacén,
+                  los movimientos diarios,las notas de entrada y salida.
+                </strong>
               </p>
             </div>
           </div>
@@ -29,13 +32,19 @@ const SaaSAppFeatures = () => {
               <i className='las la-pencil-alt bg-2'></i>
               <h3>Módulo Valorizaciones</h3>
               <p>
-                Podrás ingresar diariamente los metrados ejecutados de cada
-                partida. El software generará automáticamente la valorización de
-                obra, la de mayores mayores metrados, la valorización de
-                partidas nuevas y deductivos según corresponda. Aplica formula
-                polinomica , configurar las amortizaciones y reajustes de
-                valorización correspondientes. Esta orientado tanto para obra
-                por administración directa o por contrata.
+                Podrás configurar tu presupuesto inicial de expediente técnico,
+                presupuesto de mayores metrados, presupuesto de partidas nuevas,
+                dar ingresar diariamente los metrados ejecutados de cada
+                partida.{' '}
+                <strong>
+                  El software generará automáticamente la valorización de obra,
+                  la de mayores mayores metrados, la valorización de partidas
+                  nuevas y deductivos según corresponda.
+                </strong>{' '}
+                Tambien podrás diseñar tu formula polinómica, aplicar los
+                reajustes por formula polinomica , configurar las amortizaciones
+                y reajustes de valorización correspondientes. Esta orientado
+                tanto para obra por administración directa o por contrata.
               </p>
             </div>
           </div>

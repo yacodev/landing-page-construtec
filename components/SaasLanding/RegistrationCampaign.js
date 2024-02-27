@@ -35,8 +35,8 @@ const RegistrationCampaign = () => {
               <p>
                 Al registrate en la plataforma podrás acceder de manera gratuita
                 tanto al módulo de almacen, como al módulo de valorizaciones,
-                por un periodo de prueba por 30 días sin costo alguno. Esta
-                promoción solo es valida hasta el 31 de Diciembre del 2023.
+                por un periodo de prueba por 15 días sin costo alguno. Esta
+                promoción solo es valida hasta el 31 de Marzo del 2024.
               </p>
             </div>
             <div className='saas-registration-btn mt-4'>
@@ -53,7 +53,7 @@ const RegistrationCampaign = () => {
               </p>
             </div>
             <div className='count-down'>
-              {<Countdown date={new Date(2023, 11, 31)} renderer={renderer} />}
+              {<Countdown date={new Date(2024, 2, 31)} renderer={renderer} />}
             </div>
           </div>
         </div>

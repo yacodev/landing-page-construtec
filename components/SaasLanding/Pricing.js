@@ -2,9 +2,158 @@ import Link from 'next/link';
 import React, { Component } from 'react';
 import config from '../../utils/config';
 
+const plansUsers = {
+  warehousePlan: {
+    title: 'Módulo almacen',
+    price: 'S/. 40.0',
+    description: 'Puedes tener hasta un proyecto activo.',
+  },
+  valorizationPlan: {
+    title: 'Módulo valorizaciones',
+    price: 'S/. 40.0',
+    description: 'Puedes tener hasta un proyecto activo.',
+  },
+  premiumPlan: {
+    title: 'Premium',
+    price: 'S/. 60.0',
+    description: 'Puedes tener hasta un proyecto activo.',
+  },
+  warehouseAnnualPlan: {
+    title: 'Módulo almacen',
+    monthlyPrice: 'S/. 25/mes',
+    annualPrice: 'S/. 300.0 / año',
+    description: 'Puedes tener hasta un proyecto activo.',
+  },
+  valorizationAnnualPlan: {
+    title: 'Módulo valorizaciones',
+    monthlyPrice: 'S/. 25/mes',
+    annualPrice: 'S/. 300.0 / año',
+    description: 'Puedes tener hasta un proyecto activo.',
+  },
+  premiumAnnualPlan: {
+    title: 'Premium',
+    monthlyPrice: 'S/. 35/mes',
+    annualPrice: 'S/. 420.0 / año',
+    description: 'Puedes tener hasta un proyecto activo.',
+  },
+};
+
+const plansEnterprise = {
+  warehousePlan: {
+    title: 'Módulo Almacen - Constructoras',
+    price: 'S/. 300',
+    description: 'Puedes tener hasta cinco (5) proyectos activos.',
+  },
+  valorizationPlan: {
+    title: 'Valorizaciones - Constructoras',
+    price: 'S/. 300',
+    description: 'Puedes tener hasta cinco (5) proyectos activos.',
+  },
+  premiumPlan: {
+    title: 'Premium - Constructoras',
+    price: 'S/. 500',
+    description: 'Puedes tener hasta cinco (5) proyectos activos.',
+  },
+  warehouseAnnualPlan: {
+    title: 'Módulo Almacen - Constructoras',
+    monthlyPrice: 'S/. 250/mes',
+    annualPrice: 'S/. 3000 / año',
+    description: 'Puedes tener hasta cinco (5) proyectos activos.',
+  },
+  valorizationAnnualPlan: {
+    title: 'Valorizaciones - Constructoras',
+    monthlyPrice: 'S/. 250/mes',
+    annualPrice: 'S/. 3000 / año',
+    description: 'Puedes tener hasta cinco (5) proyectos activos.',
+  },
+  premiumAnnualPlan: {
+    title: 'Premium - Constructoras',
+    monthlyPrice: 'S/. 416/mes',
+    annualPrice: 'S/. 5000 / año',
+    description: 'Puedes tener hasta cinco (5) proyectos activos.',
+  },
+};
+
+const plansEnterpriseTenProjects = {
+  warehousePlan: {
+    title: 'Módulo Almacen - Constructoras',
+    price: 'S/. 500',
+    description: 'Puedes tener hasta diez (10) proyectos activos.',
+  },
+  valorizationPlan: {
+    title: 'Valorizaciones - Constructoras',
+    price: 'S/. 500',
+    description: 'Puedes tener hasta diez (10) proyectos activos.',
+  },
+  premiumPlan: {
+    title: 'Premium - Constructoras',
+    price: 'S/. 700',
+    description: 'Puedes tener hasta diez (10) proyectos activos.',
+  },
+  warehouseAnnualPlan: {
+    title: 'Módulo Almacen - Constructoras',
+    monthlyPrice: 'S/. 400/mes',
+    annualPrice: 'S/. 4800 / año',
+    description: 'Puedes tener hasta diez (10) proyectos activos.',
+  },
+  valorizationAnnualPlan: {
+    title: 'Valorizaciones - Constructoras',
+    monthlyPrice: 'S/. 400/mes',
+    annualPrice: 'S/. 4800 / año',
+    description: 'Puedes tener hasta diez (10) proyectos activos.',
+  },
+  premiumAnnualPlan: {
+    title: 'Premium - Constructoras',
+    monthlyPrice: 'S/. 550/mes',
+    annualPrice: 'S/. 6600 / año',
+    description: 'Puedes tener hasta diez (10) proyectos activos.',
+  },
+};
+
+const plansEnterpriseFifteenProjects = {
+  warehousePlan: {
+    title: 'Módulo Almacen - Constructoras',
+    price: 'S/. 700',
+    description: 'Puedes tener hasta diez (15) proyectos activos.',
+  },
+  valorizationPlan: {
+    title: 'Valorizaciones - Constructoras',
+    price: 'S/. 700',
+    description: 'Puedes tener hasta quince (15) proyectos activos.',
+  },
+  premiumPlan: {
+    title: 'Premium - Constructoras',
+    price: 'S/. 900',
+    description: 'Puedes tener hasta quince (15) proyectos activos.',
+  },
+  warehouseAnnualPlan: {
+    title: 'Módulo Almacen - Constructoras',
+    monthlyPrice: 'S/. 550/mes',
+    annualPrice: 'S/. 6600 / año',
+    description: 'Puedes tener hasta quince (15) proyectos activos.',
+  },
+  valorizationAnnualPlan: {
+    title: 'Valorizaciones - Constructoras',
+    monthlyPrice: 'S/. 550/mes',
+    annualPrice: 'S/. 6600 / año',
+    description: 'Puedes tener hasta quince (15) proyectos activos.',
+  },
+  premiumAnnualPlan: {
+    title: 'Premium - Constructoras',
+    monthlyPrice: 'S/. 750/mes',
+    annualPrice: 'S/. 9000 / año',
+    description: 'Puedes tener hasta quince (15) proyectos activos.',
+  },
+};
 export default class Pricing extends Component {
   // Tab
-  openTabSection = (evt, tabNmae) => {
+  state = {
+    showBusinessPlan: false,
+    numberOfProjects: 5,
+    ...plansUsers,
+  };
+
+  openTabSection = (evt, tabName) => {
     let i, tabcontent, tablinks;
     tabcontent = document.getElementsByClassName('tabs-item');
     for (i = 0; i < tabcontent.length; i++) {
@@ -17,9 +166,47 @@ export default class Pricing extends Component {
       tablinks[i].className = tablinks[i].className.replace('current', '');
     }
 
-    document.getElementById(tabNmae).style.display = 'block';
-    document.getElementById(tabNmae).className += ' fadeInUp animated';
+    document.getElementById(tabName).style.display = 'block';
+    document.getElementById(tabName).className += ' fadeInUp animated';
     evt.currentTarget.className += 'current';
+  };
+
+  handleSwitch = (e) => {
+    if (!this.state.showBusinessPlan) {
+      this.setState({
+        ...plansEnterprise,
+      });
+    }
+
+    if (this.state.showBusinessPlan) {
+      this.setState({
+        ...plansUsers,
+      });
+    }
+    this.setState({ showBusinessPlan: !this.state.showBusinessPlan });
+  };
+
+  handleRange = (e) => {
+    const numberOfProjects = e.target.value;
+    console.log('evento', numberOfProjects);
+    switch (numberOfProjects) {
+      case '5':
+        this.setState({ ...plansEnterprise });
+    }
+    switch (numberOfProjects) {
+      case '15':
+        this.setState({ ...plansEnterpriseFifteenProjects });
+    }
+    switch (numberOfProjects) {
+      case '10':
+        this.setState({ ...plansEnterpriseTenProjects });
+    }
+    switch (numberOfProjects) {
+      case '15':
+        this.setState({ ...plansEnterpriseFifteenProjects });
+    }
+
+    this.setState({ numberOfProjects: e.target.value });
   };
 
   render() {
@@ -29,13 +216,51 @@ export default class Pricing extends Component {
           <div className='section-title'>
             <h2>Nuestros precios</h2>
             <p>
-              Contamos con planes mensuales y anuales, para que puedas acceder a
-              un módulo o a toda la plataforma. Elige el plan que mejor se
-              acomode a tus necesidades:
+              Contamos con planes mensuales y anuales, tanto para{' '}
+              <strong>
+                ingenieros residentes de obra como para empresas constructoras{' '}
+              </strong>
+              , para que puedas acceder a un módulo o a toda la plataforma.
+              Elige el plan que mejor se acomode a tus necesidades:
             </p>
           </div>
 
           <div className='tab pricing-tab'>
+            <div className='container-switch'>
+              <span>
+                <strong>Ingenieros / Arquitectos </strong>
+              </span>
+              <label className='switch' htmlFor='plansType'>
+                <input
+                  type='checkbox'
+                  onClick={(e) => this.handleSwitch(e)}
+                  id='plansType'
+                />
+                <span className='slider round'></span>
+              </label>
+              <span>
+                <strong>Constructoras</strong>
+              </span>
+            </div>
+            {this.state.showBusinessPlan && (
+              <div className='container-select-number-projects'>
+                <p>Elige el número de proyetos:</p>
+                <input
+                  type='range'
+                  id='rangeInput'
+                  min='5'
+                  max='15'
+                  step='5'
+                  value={this.state.numberOfProjects}
+                  onChange={(e) => this.handleRange(e)}
+                />
+                <div className='container-number-projects'>
+                  <p id='selectedValue'>5</p>
+                  <p id='selectedValue'>10</p>
+                  <p id='selectedValue'>15</p>
+                </div>
+              </div>
+            )}
             <ul className='tabs'>
               <li
                 className='current'
@@ -57,25 +282,21 @@ export default class Pricing extends Component {
                   <div className='col-lg-4 col-md-6 col-sm-6'>
                     <div className='pricing-card pric-tabe'>
                       <div className='price-header text-center'>
-                        <h3>Módulo almacen</h3>
-                        <h4>S/.40</h4>
+                        <h3>{this.state.warehousePlan.title}</h3>
+                        <h4>{this.state.warehousePlan.price}</h4>
                         <p>Por Mes</p>
                       </div>
-
                       <ul>
                         <li>
                           <i className='las la-check'></i>
-                          Valido mientras dure la suscripción.
-                        </li>
-                        <li>
-                          <i className='las la-check'></i>
-                          Puedes tener hasta tres proyectos activos.
+                          <strong>
+                            {this.state.warehousePlan.description}
+                          </strong>
                         </li>
                         <li>
                           <i className='las la-check'></i>
                           Acceso al módulo almacen.
                         </li>
-
                         <li>
                           <i className='las la-check'></i>
                           Sin limites en los resportes generados.
@@ -103,25 +324,21 @@ export default class Pricing extends Component {
                   <div className='col-lg-4 col-md-6 col-sm-6'>
                     <div className='pricing-card pric-tabe'>
                       <div className='price-header text-center'>
-                        <h3>Módulo valorizaciones</h3>
-                        <h4>S/.40</h4>
+                        <h3>{this.state.valorizationPlan.title}</h3>
+                        <h4>{this.state.valorizationPlan.price}</h4>
                         <p>Por Mes</p>
                       </div>
-
                       <ul>
                         <li>
                           <i className='las la-check'></i>
-                          Valido mientras dure la suscripción.
-                        </li>
-                        <li>
-                          <i className='las la-check'></i>
-                          Puedes tener hasta tres proyectos activos.
+                          <strong>
+                            {this.state.valorizationPlan.description}
+                          </strong>
                         </li>
                         <li>
                           <i className='las la-check'></i>
                           Acceso al módulo valorizaciones.
                         </li>
-
                         <li>
                           <i className='las la-check'></i>
                           Sin limites en los resportes generados.
@@ -149,19 +366,14 @@ export default class Pricing extends Component {
                   <div className='col-lg-4 col-md-6 col-sm-6 offset-sm-3 offset-lg-0'>
                     <div className='pricing-card pric-tabe'>
                       <div className='price-header text-center'>
-                        <h3>Premium</h3>
-                        <h4>S/. 60</h4>
+                        <h3>{this.state.premiumPlan.title}</h3>
+                        <h4>{this.state.premiumPlan.price}</h4>
                         <p>Por mes</p>
                       </div>
-
                       <ul>
                         <li>
                           <i className='las la-check'></i>
-                          Valido mientras dure la suscripción.
-                        </li>
-                        <li>
-                          <i className='las la-check'></i>
-                          Puedes tener hasta tres proyectos activos.
+                          <strong>{this.state.premiumPlan.description}</strong>
                         </li>
                         <li>
                           <i className='las la-check'></i>Acceso al módulo
@@ -198,19 +410,16 @@ export default class Pricing extends Component {
                   <div className='col-lg-4 col-md-6 col-sm-6'>
                     <div className='pricing-card pric-tabe'>
                       <div className='price-header text-center'>
-                        <h3>Módulo almacen</h3>
-                        <h4>S/. 25/mes</h4>
-                        <p>S/. 300 / año</p>
+                        <h3>{this.state.warehouseAnnualPlan.title}</h3>
+                        <h4>{this.state.warehouseAnnualPlan.monthlyPrice}</h4>
+                        <p>{this.state.warehouseAnnualPlan.annualPrice}</p>
                       </div>
-
                       <ul>
                         <li>
                           <i className='las la-check'></i>
-                          Valido por un año.
-                        </li>
-                        <li>
-                          <i className='las la-check'></i>
-                          Puedes tener hasta tres proyectos activos.
+                          <strong>
+                            {this.state.warehouseAnnualPlan.description}
+                          </strong>
                         </li>
                         <li>
                           <i className='las la-check'></i>
@@ -243,25 +452,23 @@ export default class Pricing extends Component {
                   <div className='col-lg-4 col-md-6 col-sm-6'>
                     <div className='pricing-card pric-tabe'>
                       <div className='price-header text-center'>
-                        <h3>Módulo valorizaciones</h3>
-                        <h4>S/. 25/mes</h4>
-                        <p>S/. 300 / año</p>
+                        <h3>{this.state.valorizationAnnualPlan.title}</h3>
+                        <h4>
+                          {this.state.valorizationAnnualPlan.monthlyPrice}
+                        </h4>
+                        <p>{this.state.valorizationAnnualPlan.annualPrice}</p>
                       </div>
-
                       <ul>
                         <li>
                           <i className='las la-check'></i>
-                          Valido por un año.
-                        </li>
-                        <li>
-                          <i className='las la-check'></i>
-                          Puedes tener hasta tres proyectos activos.
+                          <strong>
+                            {this.state.valorizationAnnualPlan.description}
+                          </strong>
                         </li>
                         <li>
                           <i className='las la-check'></i>
                           Acceso al módulo valorizaciones.
                         </li>
-
                         <li>
                           <i className='las la-check'></i>
                           Sin limites en los resportes generados.
@@ -289,19 +496,17 @@ export default class Pricing extends Component {
                   <div className='col-lg-4 col-md-6 col-sm-6'>
                     <div className='pricing-card pric-tabe'>
                       <div className='price-header text-center'>
-                        <h3>Premium</h3>
-                        <h4>S/. 35/mes</h4>
-                        <p>S/. 420 / año</p>
+                        <h3>{this.state.premiumAnnualPlan.title}</h3>
+                        <h4>{this.state.premiumAnnualPlan.monthlyPrice}</h4>
+                        <p>{this.state.premiumAnnualPlan.annualPrice}</p>
                       </div>
 
                       <ul>
                         <li>
                           <i className='las la-check'></i>
-                          Valido mientras dure la suscripción
-                        </li>
-                        <li>
-                          <i className='las la-check'></i>
-                          Puedes crear tres proyectos
+                          <strong>
+                            {this.state.premiumAnnualPlan.description}
+                          </strong>
                         </li>
                         <li>
                           <i className='las la-check'></i>Acceso al módulo

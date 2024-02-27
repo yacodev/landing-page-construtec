@@ -16,10 +16,14 @@ const Features = () => {
                 <h3>Empresas constructoras </h3>
                 <p>
                   Constructoras que contratán con el estado la ejecución de
-                  obras públicas, mediante la plataforma podrán
-                  <strong>gestion todos sus proyectos</strong>, conocer el
-                  estado actual de cada proyecto (valorización), asi como el
-                  estado de sus almacenes de obra.
+                  obras públicas,{' '}
+                  <strong>
+                    el software Construtec les permitirá gestionar todos sus
+                    proyectos
+                  </strong>
+                  , conocer el estado actual de cada proyecto (valorización),
+                  así como el estado de sus almacenes de cada obra (inventario
+                  de materiales).
                 </p>
               </div>
 
@@ -29,12 +33,12 @@ const Features = () => {
                 </div>
                 <h3>Ingenieros Residente de Obra</h3>
                 <p>
-                  Que trabajen en constructoras o instituciones publicas:
-                  Municipalidades, Gobiernos regionales y Ministerios, podrán
+                  Que trabajen en constructoras o instituciones públicas (
+                  Municipalidades, Gobiernos regionales y Ministerios), podrán
                   realizar sus{' '}
                   <strong>
-                    valorizaciones de obra ejecutadas tanto por administración
-                    directa e indirecta.
+                    valorizaciones de obra ejecutadas tanto de obras ejecutadas
+                    por administración directa o indirecta.
                   </strong>
                 </p>
               </div>
@@ -45,7 +49,7 @@ const Features = () => {
                 </div>
                 <h3>Almaceneros</h3>
                 <p>
-                  Que trabajen en constructoras o instituciones publicas, podrán
+                  Que trabajen en constructoras o instituciones públicas, podrán
                   realizar el control de su almacén
                   <strong>
                     generar tus notas de entrada/salida, tu bincard digital y la

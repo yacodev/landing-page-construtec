@@ -8,10 +8,9 @@ const MainBanner = () => {
       <div className='container'>
         <div className='saas-banner-content'>
           <h4>Ganador del Startup Perú 9G - 2023</h4>
-          <p>Con nuestra plataforma</p>
+          <h1>Construtec</h1>
           <h2>
-            Gestiona tu almacén y realiza tus valorizaciones de obra de manera
-            más eficiente.
+            Software para la gestión de almacenes y valorizaciones de obra.
           </h2>
           <div className='saas-banner-btn mt-4'>
             <Link href={config.REGISTER_PLATFORM_URL}>
