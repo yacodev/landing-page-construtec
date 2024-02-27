@@ -12,9 +12,9 @@ const AppDownload = () => {
               </div>
 
               <p>
-                Podrás acceder a nuestra plataforma desde un telefono movil o
-                tablet para visualizar tus reportes o el estado de tus
-                proyectos.
+                Podrás acceder a nuestra plataforma desde un teléfono movil o
+                tablet para visualizar tus reportes o el estado de tus proyectos
+                en cualquier momento y desde la comodidad de tu telefono movil.
               </p>
             </div>
           </div>
