@@ -16,6 +16,21 @@ class MyDocument extends Document {
             type='image/png'
             href='/images/favicon_construtec.png'
           ></link>
+
+          <script
+            async
+            src='https://www.googletagmanager.com/gtag/js?id=G-1EDCC90MBH'
+          ></script>
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments)}
+                gtag('js', new Date());
+                gtag('config', 'G-1EDCC90MBH');
+              `,
+            }}
+          />
         </Head>
         <body>
           <Main />
