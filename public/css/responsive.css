@@ -32,7 +32,7 @@
     font-size: 18px;
   }
   .saas-banner-area .saas-banner-content h1 {
-    font-size: 300px;
+    font-size: 60px;
   }
   .saas-banner-area .saas-banner-content p {
     font-size: 14px;
@@ -412,9 +412,9 @@
     line-height: 70px;
   }
   .video-btn a .ripple {
-    width: 70px;
-    height: 70px;
-    margin: -35px 0 0 -35px;
+    width: 50px;
+    height: 50px;
+    margin: -25px 0 0 -25px;
   }
   .aweseome-area .aweseome-img {
     margin-bottom: 30px;
@@ -549,7 +549,7 @@
     max-width: 300px;
   }
   .popup-video-area {
-    height: 260px;
+    height: 460px;
   }
   .clients-slider-two-area .clients-slider-two .slider-two-item {
     padding: 20px 15px;

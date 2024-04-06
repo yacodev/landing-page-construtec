@@ -910,6 +910,21 @@ input:checked + .slider.round:before {
   margin-bottom: 30px;
 }
 
+
+.saas-feature-two .video-container{
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%;
+}
+
+.saas-feature-two .video-container iframe{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 .saas-feature-two i {
   position: absolute;
   color: #ffffff;
@@ -996,44 +1011,58 @@ input:checked + .slider.round:before {
   position: relative;
 }
 
-.popup-video-area.bg-1 {
-  background-image: url("/images/saas-img/video-area-bg.jpg");
+
+.popup-video-area.bg-description {
+  background-image: url("/images/saas-img/saas-lp-display-construtec.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-.popup-video-area.bg-2 {
-  background-image: url("/images/app-img/video-bg.jpg");
+.popup-video-area.bg-warehouse {
+  background-image: url("/images/saas-img/warehouse-1.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
+.popup-video-area.bg-valorization {
+  background-image: url("/images/saas-img/valorization-1.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 .video-btn {
   position: relative;
   text-align: center;
+  left: -20px;
+  top:-25px
 }
 
 .video-btn a {
   background-color: #1474D2;
   color: #ffffff;
-  height: 100px;
-  width: 100px;
+  height: 50px;
+  width: 50px;
   position: absolute;
   text-align: center;
-  margin: -50px 0 0 -30px;
-  border-radius: 100px;
+  border-radius: 50px;
   z-index: 1;
   font-size: 40px;
-  line-height: 100px;
+  line-height: 50px;
   display: inline-block;
 }
 
 .video-btn a .ripple {
-  background-color: rgba(86, 125, 244, 0.3);
+  background-color:#FD4C5C;
   position: absolute;
-  width: 100px;
-  height: 100px;
+  width: 50px;
+  height: 50px;
   z-index: -1;
   left: 50%;
   top: 50%;
   opacity: 0;
-  margin: -50px 0 0 -50px;
+  margin: -25px 0 0 -25px;
   border-radius: 100%;
   -webkit-animation: ripple 1.8s infinite;
   animation: ripple 1.8s infinite;

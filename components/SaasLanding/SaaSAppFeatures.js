@@ -1,4 +1,5 @@
 import React from 'react';
+import PopupVideoArea from '../SaasLanding/PopupVideoArea';
 
 const SaaSAppFeatures = () => {
   return (
@@ -26,9 +27,14 @@ const SaaSAppFeatures = () => {
               </p>
             </div>
           </div>
+          <div className='col-lg-6'>
+            <div className='popup-video-area bg-warehouse'>
+              <PopupVideoArea srcVideo='qC2-3TeDDTg' />
+            </div>
+          </div>
 
           <div className='col-lg-6'>
-            <div className='saas-feature-two'>
+            <div className='saas-feature-two '>
               <i className='las la-pencil-alt bg-2'></i>
               <h3>Módulo Valorizaciones</h3>
               <p>
@@ -48,13 +54,11 @@ const SaaSAppFeatures = () => {
               </p>
             </div>
           </div>
-        </div>
-
-        <div className='parsonal-image'>
-          <img
-            src='/images/saas-img/saas-lp-display-construtec.png'
-            alt='Image'
-          />
+          <div className='col-lg-6'>
+            <div className='popup-video-area bg-valorization'>
+              <PopupVideoArea srcVideo='unSZbZfBDzk' />
+            </div>
+          </div>
         </div>
       </div>
     </div>
