@@ -1011,13 +1011,6 @@ input:checked + .slider.round:before {
   position: relative;
 }
 
-.popup-video-area.bg-1 {
-  background-image: url("/images/saas-img/video-area-bg.jpg");
-}
-
-.popup-video-area.bg-2 {
-  background-image: url("/images/app-img/video-bg.jpg");
-}
 
 .popup-video-area.bg-description {
   background-image: url("/images/saas-img/saas-lp-display-construtec.png");

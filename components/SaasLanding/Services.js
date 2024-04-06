@@ -73,7 +73,7 @@ const Services = () => {
           <div className='col-lg-3 col-sm-6'>
             <div className='saas-service-card'>
               <div className='icon bg-3'>
-                <i class='las la-digital-tachograph'></i>
+                <i className='las la-digital-tachograph'></i>
               </div>
               <h3>Digitalización</h3>
               <p>
