@@ -5,8 +5,7 @@ const ModalVideo = dynamic(() => import('react-modal-video'), {
   ssr: false,
 });
 
-const PopupVideoArea = () => {
-  // Popup Video
+const PopupVideoArea = ({ srcVideo }) => {
   const [isOpen, setIsOpen] = React.useState(true);
   const openModal = () => {
     setIsOpen(!isOpen);
@@ -14,11 +13,10 @@ const PopupVideoArea = () => {
 
   return (
     <div className='popup-video-area bg-1'>
-      {/* If you want to change the video need to update videoID */}
       <ModalVideo
         channel='youtube'
         isOpen={!isOpen}
-        videoId='OvZoTdejOWk'
+        videoId={srcVideo}
         onClose={() => setIsOpen(!isOpen)}
       />
 

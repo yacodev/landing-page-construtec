@@ -188,7 +188,6 @@ export default class Pricing extends Component {
 
   handleRange = (e) => {
     const numberOfProjects = e.target.value;
-    console.log('evento', numberOfProjects);
     switch (numberOfProjects) {
       case '5':
         this.setState({ ...plansEnterprise });
