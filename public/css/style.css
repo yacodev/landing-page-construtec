@@ -884,6 +884,15 @@ input:checked + .slider.round:before {
   text-align: center;
 }
 
+.description_campaign h5 {
+  color: #fbfbfb;
+  text-align: center;
+}
+
+.description_campaign h6 {
+  color: #fbfbfb;
+  text-align: center;
+}
 .count-down h3 {
   color: #fbfbfb;
   text-align: center;
