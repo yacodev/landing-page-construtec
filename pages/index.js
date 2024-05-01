@@ -11,8 +11,13 @@ import Partner from '../components/SaasLanding/Partner';
 import Contact from '../components/SaasLanding/Contact';
 import Footer from '../components/SaasLanding/Footer';
 import RegistrationCampaign from '../components/SaasLanding/RegistrationCampaign';
+import Hotjar from '@hotjar/browser';
+
+const siteId = 4965887;
+const hotjarVersion = 6;
 
 const SaasLanding = () => {
+  Hotjar.init(siteId, hotjarVersion);
   return (
     <>
       <Navbar />
