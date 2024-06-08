@@ -5,35 +5,35 @@ import config from '../../utils/config';
 const plansUsers = {
   warehousePlan: {
     title: 'Módulo almacen',
-    price: 'S/. 40.0',
+    price: 'S/. 25.0',
     description: 'Puedes tener hasta un proyecto activo.',
   },
   valorizationPlan: {
     title: 'Módulo valorizaciones',
-    price: 'S/. 40.0',
+    price: 'S/. 25.0',
     description: 'Puedes tener hasta un proyecto activo.',
   },
   premiumPlan: {
     title: 'Premium',
-    price: 'S/. 60.0',
+    price: 'S/. 35.0',
     description: 'Puedes tener hasta un proyecto activo.',
   },
   warehouseAnnualPlan: {
     title: 'Módulo almacen',
-    monthlyPrice: 'S/. 25/mes',
-    annualPrice: 'S/. 300.0 / año',
+    monthlyPrice: 'S/. 8/mes',
+    annualPrice: 'S/. 100.0 / año',
     description: 'Puedes tener hasta un proyecto activo.',
   },
   valorizationAnnualPlan: {
     title: 'Módulo valorizaciones',
-    monthlyPrice: 'S/. 25/mes',
-    annualPrice: 'S/. 300.0 / año',
+    monthlyPrice: 'S/. 8/mes',
+    annualPrice: 'S/. 100.0 / año',
     description: 'Puedes tener hasta un proyecto activo.',
   },
   premiumAnnualPlan: {
     title: 'Premium',
-    monthlyPrice: 'S/. 35/mes',
-    annualPrice: 'S/. 420.0 / año',
+    monthlyPrice: 'S/. 13/mes',
+    annualPrice: 'S/. 150.0 / año',
     description: 'Puedes tener hasta un proyecto activo.',
   },
 };
@@ -41,35 +41,35 @@ const plansUsers = {
 const plansEnterprise = {
   warehousePlan: {
     title: 'Módulo Almacen - Constructoras',
-    price: 'S/. 300',
+    price: 'S/. 150',
     description: 'Puedes tener hasta cinco (5) proyectos activos.',
   },
   valorizationPlan: {
     title: 'Valorizaciones - Constructoras',
-    price: 'S/. 300',
+    price: 'S/. 150',
     description: 'Puedes tener hasta cinco (5) proyectos activos.',
   },
   premiumPlan: {
     title: 'Premium - Constructoras',
-    price: 'S/. 500',
+    price: 'S/. 200',
     description: 'Puedes tener hasta cinco (5) proyectos activos.',
   },
   warehouseAnnualPlan: {
     title: 'Módulo Almacen - Constructoras',
-    monthlyPrice: 'S/. 250/mes',
-    annualPrice: 'S/. 3000 / año',
+    monthlyPrice: 'S/. 100/mes',
+    annualPrice: 'S/. 1200 / año',
     description: 'Puedes tener hasta cinco (5) proyectos activos.',
   },
   valorizationAnnualPlan: {
     title: 'Valorizaciones - Constructoras',
-    monthlyPrice: 'S/. 250/mes',
-    annualPrice: 'S/. 3000 / año',
+    monthlyPrice: 'S/. 100/mes',
+    annualPrice: 'S/. 1200 / año',
     description: 'Puedes tener hasta cinco (5) proyectos activos.',
   },
   premiumAnnualPlan: {
     title: 'Premium - Constructoras',
-    monthlyPrice: 'S/. 416/mes',
-    annualPrice: 'S/. 5000 / año',
+    monthlyPrice: 'S/. 150/mes',
+    annualPrice: 'S/. 1800 / año',
     description: 'Puedes tener hasta cinco (5) proyectos activos.',
   },
 };
@@ -77,35 +77,35 @@ const plansEnterprise = {
 const plansEnterpriseTenProjects = {
   warehousePlan: {
     title: 'Módulo Almacen - Constructoras',
-    price: 'S/. 500',
+    price: 'S/. 300',
     description: 'Puedes tener hasta diez (10) proyectos activos.',
   },
   valorizationPlan: {
     title: 'Valorizaciones - Constructoras',
-    price: 'S/. 500',
+    price: 'S/. 300',
     description: 'Puedes tener hasta diez (10) proyectos activos.',
   },
   premiumPlan: {
     title: 'Premium - Constructoras',
-    price: 'S/. 700',
+    price: 'S/. 400',
     description: 'Puedes tener hasta diez (10) proyectos activos.',
   },
   warehouseAnnualPlan: {
     title: 'Módulo Almacen - Constructoras',
-    monthlyPrice: 'S/. 400/mes',
-    annualPrice: 'S/. 4800 / año',
+    monthlyPrice: 'S/. 200/mes',
+    annualPrice: 'S/. 2400 / año',
     description: 'Puedes tener hasta diez (10) proyectos activos.',
   },
   valorizationAnnualPlan: {
     title: 'Valorizaciones - Constructoras',
-    monthlyPrice: 'S/. 400/mes',
-    annualPrice: 'S/. 4800 / año',
+    monthlyPrice: 'S/. 200/mes',
+    annualPrice: 'S/. 2400 / año',
     description: 'Puedes tener hasta diez (10) proyectos activos.',
   },
   premiumAnnualPlan: {
     title: 'Premium - Constructoras',
-    monthlyPrice: 'S/. 550/mes',
-    annualPrice: 'S/. 6600 / año',
+    monthlyPrice: 'S/. 300/mes',
+    annualPrice: 'S/. 3600 / año',
     description: 'Puedes tener hasta diez (10) proyectos activos.',
   },
 };
@@ -113,35 +113,35 @@ const plansEnterpriseTenProjects = {
 const plansEnterpriseFifteenProjects = {
   warehousePlan: {
     title: 'Módulo Almacen - Constructoras',
-    price: 'S/. 700',
+    price: 'S/. 450',
     description: 'Puedes tener hasta diez (15) proyectos activos.',
   },
   valorizationPlan: {
     title: 'Valorizaciones - Constructoras',
-    price: 'S/. 700',
+    price: 'S/. 450',
     description: 'Puedes tener hasta quince (15) proyectos activos.',
   },
   premiumPlan: {
     title: 'Premium - Constructoras',
-    price: 'S/. 900',
+    price: 'S/. 600',
     description: 'Puedes tener hasta quince (15) proyectos activos.',
   },
   warehouseAnnualPlan: {
     title: 'Módulo Almacen - Constructoras',
-    monthlyPrice: 'S/. 550/mes',
-    annualPrice: 'S/. 6600 / año',
+    monthlyPrice: 'S/. 300/mes',
+    annualPrice: 'S/. 3600 / año',
     description: 'Puedes tener hasta quince (15) proyectos activos.',
   },
   valorizationAnnualPlan: {
     title: 'Valorizaciones - Constructoras',
-    monthlyPrice: 'S/. 550/mes',
-    annualPrice: 'S/. 6600 / año',
+    monthlyPrice: 'S/. 300/mes',
+    annualPrice: 'S/. 3600 / año',
     description: 'Puedes tener hasta quince (15) proyectos activos.',
   },
   premiumAnnualPlan: {
     title: 'Premium - Constructoras',
-    monthlyPrice: 'S/. 750/mes',
-    annualPrice: 'S/. 9000 / año',
+    monthlyPrice: 'S/. 450/mes',
+    annualPrice: 'S/. 5400 / año',
     description: 'Puedes tener hasta quince (15) proyectos activos.',
   },
 };
