@@ -23,7 +23,11 @@ const Features = () => {
                   </strong>
                   , conocer el estado actual de cada proyecto (valorización),
                   así como el estado de sus almacenes de cada obra (inventario
-                  de materiales).
+                  de materiales) y{' '}
+                  <strong>
+                    generar todos los reportes de valorizaciones y almacen
+                    necesarios.
+                  </strong>
                 </p>
               </div>
 
@@ -50,7 +54,7 @@ const Features = () => {
                 <h3>Almaceneros</h3>
                 <p>
                   Que trabajen en constructoras o instituciones públicas, podrán
-                  realizar el control de su almacén
+                  realizar el control de su almacén,{' '}
                   <strong>
                     generar tus notas de entrada/salida, tu bincard digital y la
                     valorización de tu almacen.

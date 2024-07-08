@@ -64,9 +64,9 @@ const Services = () => {
               </div>
               <h3>Organización</h3>
               <p>
-                En un solo lugar tienes todos las valorizaciones de obra y
-                almacen organizados y entrelazados, olvidate de tener un excel
-                por cada mes.
+                Organiza toda la información de tus valorizaciones de obra y
+                movimientos de almacen en un solo lugar,{' '}
+                <strong>olvidate de tener un excel por cada mes.</strong>
               </p>
             </div>
           </div>
@@ -77,9 +77,9 @@ const Services = () => {
               </div>
               <h3>Digitalización</h3>
               <p>
-                Puedes digitalizar tu almacén de obra, acceder de manera
-                instantanea al inventario de materiales de todas tus obras y
-                generar los reportes necesarios.
+                Puedes digitalizar tu obra, acceder de manera instantanea al
+                inventario de materiales de todas tus obras y al avance de cada
+                proyecto.
               </p>
             </div>
           </div>
