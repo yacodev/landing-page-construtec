@@ -191,18 +191,13 @@ export default class Pricing extends Component {
     switch (numberOfProjects) {
       case '5':
         this.setState({ ...plansEnterprise });
-    }
-    switch (numberOfProjects) {
+        break;
       case '15':
         this.setState({ ...plansEnterpriseFifteenProjects });
-    }
-    switch (numberOfProjects) {
+        break;
       case '10':
         this.setState({ ...plansEnterpriseTenProjects });
-    }
-    switch (numberOfProjects) {
-      case '15':
-        this.setState({ ...plansEnterpriseFifteenProjects });
+        break;
     }
 
     this.setState({ numberOfProjects: e.target.value });
@@ -270,7 +265,7 @@ export default class Pricing extends Component {
               <li onClick={(e) => this.openTabSection(e, 'YearlyPlan')}>
                 Planes anuales
                 <span className='save-card'>
-                  <span className='save'>Ahorra</span> 40%
+                  <span className='save'>Ahorra</span> 60%
                 </span>
               </li>
             </ul>
