@@ -1,5 +1,5 @@
-import React from 'react';
-import Slider from 'react-slick';
+import React from "react";
+import Slider from "react-slick";
 
 const settings = {
   dots: true,
@@ -33,10 +33,10 @@ const Partner = () => {
     setDisplay(true);
   }, []);
   return (
-    <div className='partner-area ptb-100'>
-      <div className='container'>
-        <div className='section-title'>
-          <h2>Somos ganadores de Startup Perú 9G+ 2023</h2>
+    <div className="partner-area ptb-100">
+      <div className="container">
+        <div className="section-title">
+          <h2>Somos ganadores de Startup Perú 9G </h2>
           <p>
             Construtec es un proyecto cofinanciado por el Programa Proinnóvate
             del Ministerio de la Producción, a través del concurso Startup Perú
@@ -47,47 +47,47 @@ const Partner = () => {
 
         {display ? (
           <Slider
-            className='partner-slider owl-carousel owl-theme'
+            className="partner-slider owl-carousel owl-theme"
             {...settings}
           >
-            <div className='partner-slider-item'>
-              <a href='#' target='_blank'>
+            <div className="partner-slider-item">
+              <a href="#" target="_blank">
                 <img
-                  src='/images/partner/partner_ministerio_produccion.png'
-                  alt='logo'
+                  src="/images/partner/partner_ministerio_produccion.png"
+                  alt="logo"
                 />
               </a>
             </div>
 
-            <div className='partner-slider-item'>
-              <a href='#' target='_blank'>
+            <div className="partner-slider-item">
+              <a href="#" target="_blank">
                 <img
-                  src='/images/partner/partner_proinnovate.png'
-                  width='168px'
-                  height='70px'
-                  alt='logo'
+                  src="/images/partner/partner_proinnovate.png"
+                  width="168px"
+                  height="70px"
+                  alt="logo"
                 />
               </a>
             </div>
 
-            <div className='partner-slider-item'>
-              <a href='#' target='_blank'>
+            <div className="partner-slider-item">
+              <a href="#" target="_blank">
                 <img
-                  src='/images/partner/partner_startup_peru.png'
-                  alt='logo'
-                  height='60px'
+                  src="/images/partner/partner_startup_peru.png"
+                  alt="logo"
+                  height="60px"
                 />
               </a>
             </div>
 
-            <div className='partner-slider-item'>
-              <a href='#' target='_blank'>
-                <img src='/images/partner/partner_s360.png' alt='logo' />
+            <div className="partner-slider-item">
+              <a href="#" target="_blank">
+                <img src="/images/partner/partner_s360.png" alt="logo" />
               </a>
             </div>
           </Slider>
         ) : (
-          ''
+          ""
         )}
       </div>
     </div>
