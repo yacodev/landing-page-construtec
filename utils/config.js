@@ -1,4 +1,4 @@
 export default {
-  LOGIN_PLATFORM_URL: "https://appconstrutec.com",
+  LOGIN_PLATFORM_URL: "http://appconstrutec.com",
   REGISTER_PLATFORM_URL: "http://appconstrutec.com/register",
 };
