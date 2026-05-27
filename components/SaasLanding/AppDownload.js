@@ -24,7 +24,7 @@ const AppDownload = () => {
               <img
                 src='/images/saas-img/saas-mobile-construtec.png'
                 className='mobile-1'
-                alt='Image'
+                alt='Construtec en telefono movil para consultar reportes e inventario de obra'
               />
             </div>
           </div>

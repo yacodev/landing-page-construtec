@@ -41,17 +41,17 @@ const plansUsers = {
 const plansEnterprise = {
   warehousePlan: {
     title: "Módulo Almacen - Constructoras",
-    price: "S/. 150",
+    price: "S/. 1000",
     description: "Puedes tener hasta cinco (5) proyectos activos.",
   },
   valorizationPlan: {
     title: "Valorizaciones - Constructoras",
-    price: "S/. 150",
+    price: "S/. 1000",
     description: "Puedes tener hasta cinco (5) proyectos activos.",
   },
   premiumPlan: {
     title: "Premium - Constructoras",
-    price: "S/. 200",
+    price: "S/. 1500",
     description: "Puedes tener hasta cinco (5) proyectos activos.",
   },
   warehouseAnnualPlan: {
@@ -77,17 +77,17 @@ const plansEnterprise = {
 const plansEnterpriseTenProjects = {
   warehousePlan: {
     title: "Módulo Almacen - Constructoras",
-    price: "S/. 300",
+    price: "S/. 1500",
     description: "Puedes tener hasta diez (10) proyectos activos.",
   },
   valorizationPlan: {
     title: "Valorizaciones - Constructoras",
-    price: "S/. 300",
+    price: "S/. 1500",
     description: "Puedes tener hasta diez (10) proyectos activos.",
   },
   premiumPlan: {
     title: "Premium - Constructoras",
-    price: "S/. 400",
+    price: "S/. 2000",
     description: "Puedes tener hasta diez (10) proyectos activos.",
   },
   warehouseAnnualPlan: {
@@ -113,17 +113,17 @@ const plansEnterpriseTenProjects = {
 const plansEnterpriseFifteenProjects = {
   warehousePlan: {
     title: "Módulo Almacen - Constructoras",
-    price: "S/. 400",
+    price: "S/. 2000",
     description: "Puedes tener hasta diez (15) proyectos activos.",
   },
   valorizationPlan: {
     title: "Valorizaciones - Constructoras",
-    price: "S/. 400",
+    price: "S/. 2000",
     description: "Puedes tener hasta quince (15) proyectos activos.",
   },
   premiumPlan: {
     title: "Premium - Constructoras",
-    price: "S/. 600",
+    price: "S/. 3000",
     description: "Puedes tener hasta quince (15) proyectos activos.",
   },
   warehouseAnnualPlan: {
@@ -210,7 +210,7 @@ export default class Pricing extends Component {
           <div className="section-title">
             <h2>Nuestros precios</h2>
             <p>
-              Contamos con planes mensuales y anuales, tanto para
+              Contamos con planes semestrales (6 meses) y anuales, tanto para
               <strong>
                 empresas constructoras como para entidades del estado, contamos
                 con paquetes para gestionar 5, 10 , 15 o más obras.
@@ -257,13 +257,13 @@ export default class Pricing extends Component {
               </div>
             )}
             <ul className="tabs">
+              <li onClick={(e) => this.openTabSection(e, "MonthlyPlan")}>
+                Planes semestrales
+              </li>
               <li
                 className="current"
-                onClick={(e) => this.openTabSection(e, "MonthlyPlan")}
+                onClick={(e) => this.openTabSection(e, "YearlyPlan")}
               >
-                Planes mensuales
-              </li>
-              <li onClick={(e) => this.openTabSection(e, "YearlyPlan")}>
                 Planes anuales
                 <span className="save-card">
                   <span className="save">Ahorra</span> 60%
@@ -272,14 +272,18 @@ export default class Pricing extends Component {
             </ul>
 
             <div className="tab-content">
-              <div id="MonthlyPlan" className="tabs-item">
+              <div
+                id="MonthlyPlan"
+                className="tabs-item"
+                style={{ display: "none" }}
+              >
                 <div className="row">
                   <div className="col-lg-4 col-md-6 col-sm-6">
                     <div className="pricing-card pric-tabe">
                       <div className="price-header text-center">
                         <h3>{this.state.warehousePlan.title}</h3>
                         <h4>{this.state.warehousePlan.price}</h4>
-                        <p>Por Mes</p>
+                        <p>Por 6 Mes</p>
                       </div>
                       <ul>
                         <li>
@@ -308,7 +312,11 @@ export default class Pricing extends Component {
 
                       <div className="price-btn text-center">
                         <Link href={config.REGISTER_PLATFORM_URL}>
-                          <a className="default-btn bg-color" target="_blank">
+                          <a
+                            className="default-btn bg-color"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
                             Suscribirsse
                           </a>
                         </Link>
@@ -321,7 +329,7 @@ export default class Pricing extends Component {
                       <div className="price-header text-center">
                         <h3>{this.state.valorizationPlan.title}</h3>
                         <h4>{this.state.valorizationPlan.price}</h4>
-                        <p>Por Mes</p>
+                        <p>Por 6 Mes</p>
                       </div>
                       <ul>
                         <li>
@@ -350,7 +358,11 @@ export default class Pricing extends Component {
 
                       <div className="price-btn text-center">
                         <Link href={config.REGISTER_PLATFORM_URL}>
-                          <a className="default-btn bg-color" target="_blank">
+                          <a
+                            className="default-btn bg-color"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
                             Suscribirse
                           </a>
                         </Link>
@@ -363,7 +375,7 @@ export default class Pricing extends Component {
                       <div className="price-header text-center">
                         <h3>{this.state.premiumPlan.title}</h3>
                         <h4>{this.state.premiumPlan.price}</h4>
-                        <p>Por mes</p>
+                        <p>Por 6 mes</p>
                       </div>
                       <ul>
                         <li>
@@ -390,7 +402,11 @@ export default class Pricing extends Component {
 
                       <div className="price-btn text-center">
                         <Link href={config.REGISTER_PLATFORM_URL}>
-                          <a className="default-btn bg-color" target="_blank">
+                          <a
+                            className="default-btn bg-color"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
                             Suscribirse
                           </a>
                         </Link>
@@ -400,7 +416,11 @@ export default class Pricing extends Component {
                 </div>
               </div>
 
-              <div id="YearlyPlan" className="tabs-item">
+              <div
+                id="YearlyPlan"
+                className="tabs-item"
+                style={{ display: "block" }}
+              >
                 <div className="row">
                   <div className="col-lg-4 col-md-6 col-sm-6">
                     <div className="pricing-card pric-tabe">
@@ -437,7 +457,11 @@ export default class Pricing extends Component {
 
                       <div className="price-btn text-center">
                         <Link href={config.REGISTER_PLATFORM_URL}>
-                          <a className="default-btn bg-color" target="_blank">
+                          <a
+                            className="default-btn bg-color"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
                             Suscribirse
                           </a>
                         </Link>
@@ -480,7 +504,11 @@ export default class Pricing extends Component {
 
                       <div className="price-btn text-center">
                         <Link href={config.REGISTER_PLATFORM_URL}>
-                          <a className="default-btn bg-color" target="_blank">
+                          <a
+                            className="default-btn bg-color"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
                             Suscribirse
                           </a>
                         </Link>
@@ -523,7 +551,11 @@ export default class Pricing extends Component {
 
                       <div className="price-btn text-center">
                         <Link href={config.REGISTER_PLATFORM_URL}>
-                          <a className="default-btn bg-color" target="_blank">
+                          <a
+                            className="default-btn bg-color"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
                             Suscribirse
                           </a>
                         </Link>
