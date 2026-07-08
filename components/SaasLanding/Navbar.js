@@ -152,18 +152,18 @@ class Navbar extends Component {
                 </li>
               </ul>
 
-              {/* <div className='nav-btn '>
+              <div className="nav-btn ">
                 <Link href={config.LOGIN_PLATFORM_URL}>
-                  <a className='default-btn bg-red' target='_blank'>
+                  <a className="default-btn bg-red" target="_blank">
                     Ingresar
                   </a>
                 </Link>
-                <Link href={config.REGISTER_PLATFORM_URL}>
-                  <a className='default-btn bg-red' target='_blank'>
+                {/* <Link href={config.REGISTER_PLATFORM_URL}>
+                  <a className="default-btn bg-red" target="_blank">
                     Registrarse
                   </a>
-                </Link>
-              </div> */}
+                </Link> */}
+              </div>
             </div>
           </div>
         </nav>
