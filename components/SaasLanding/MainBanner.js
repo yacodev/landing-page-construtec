@@ -14,7 +14,11 @@ const MainBanner = () => {
           </h2>
           <div className="saas-banner-btn mt-4">
             <Link href={config.REGISTER_PLATFORM_URL}>
-              <a className="default-btn bg-white mr-2" target="_blank">
+              <a
+                className="default-btn bg-white mr-2"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Quiero probarlo
               </a>
             </Link>
@@ -25,7 +29,7 @@ const MainBanner = () => {
           <img
             src="/images/saas-img/saas-laptop.png"
             className="saas-img-1"
-            alt="Image"
+            alt="Panel de Construtec para gestionar almacenes y valorizaciones de obra"
           />
         </div>
 
@@ -33,37 +37,44 @@ const MainBanner = () => {
           <img
             src="/images/shape/shape1.png"
             className="saas-shape-1"
-            alt="Shape"
+            alt=""
+            aria-hidden="true"
           />
           <img
             src="/images/shape/shape2.png"
             className="saas-shape-2"
-            alt="Shape"
+            alt=""
+            aria-hidden="true"
           />
           <img
             src="/images/shape/shape3.png"
             className="saas-shape-3"
-            alt="Shape"
+            alt=""
+            aria-hidden="true"
           />
           <img
             src="/images/shape/shape4.png"
             className="saas-shape-4"
-            alt="Shape"
+            alt=""
+            aria-hidden="true"
           />
           <img
             src="/images/shape/shape5.png"
             className="saas-shape-5"
-            alt="Shape"
+            alt=""
+            aria-hidden="true"
           />
           <img
             src="/images/shape/shape6.png"
             className="saas-shape-6"
-            alt="Shape"
+            alt=""
+            aria-hidden="true"
           />
           <img
             src="/images/shape/shape7.png"
             className="saas-shape-7"
-            alt="Shape"
+            alt=""
+            aria-hidden="true"
           />
         </div>
       </div>

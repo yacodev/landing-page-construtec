@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Navbar from "../components/SaasLanding/Navbar";
 import MainBanner from "../components/SaasLanding/MainBanner";
 import Services from "../components/SaasLanding/Services";
@@ -17,7 +17,10 @@ const siteId = 4965887;
 const hotjarVersion = 6;
 
 const SaasLanding = () => {
-  Hotjar.init(siteId, hotjarVersion);
+  useEffect(() => {
+    Hotjar.init(siteId, hotjarVersion);
+  }, []);
+
   return (
     <>
       <Navbar />

@@ -51,39 +51,31 @@ const Partner = () => {
             {...settings}
           >
             <div className="partner-slider-item">
-              <a href="#" target="_blank">
-                <img
-                  src="/images/partner/partner_ministerio_produccion.png"
-                  alt="logo"
-                />
-              </a>
+              <img
+                src="/images/partner/partner_ministerio_produccion.png"
+                alt="Ministerio de la Producción"
+              />
             </div>
 
             <div className="partner-slider-item">
-              <a href="#" target="_blank">
-                <img
-                  src="/images/partner/partner_proinnovate.png"
-                  width="168px"
-                  height="70px"
-                  alt="logo"
-                />
-              </a>
+              <img
+                src="/images/partner/partner_proinnovate.png"
+                width="168px"
+                height="70px"
+                alt="Proinnóvate"
+              />
             </div>
 
             <div className="partner-slider-item">
-              <a href="#" target="_blank">
-                <img
-                  src="/images/partner/partner_startup_peru.png"
-                  alt="logo"
-                  height="60px"
-                />
-              </a>
+              <img
+                src="/images/partner/partner_startup_peru.png"
+                alt="Startup Perú"
+                height="60px"
+              />
             </div>
 
             <div className="partner-slider-item">
-              <a href="#" target="_blank">
-                <img src="/images/partner/partner_s360.png" alt="logo" />
-              </a>
+              <img src="/images/partner/partner_s360.png" alt="S360" />
             </div>
           </Slider>
         ) : (

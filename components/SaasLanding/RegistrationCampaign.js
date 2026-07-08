@@ -46,7 +46,11 @@ const RegistrationCampaign = () => {
             </div>
             <div className='saas-registration-btn mt-4'>
               <Link href={config.REGISTER_PLATFORM_URL}>
-                <a className='default-btn bg-red' target='_blank'>
+                <a
+                  className='default-btn bg-red'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
                   Registrarse
                 </a>
               </Link>
